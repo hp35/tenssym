@@ -1,0 +1,56 @@
+Summary generated Thu Jan  5 01:15:54 AM CET 2023 for
+point-symmetry group tetragonal_422, axial tensor of rank 2.
+================================================================================
+Symmetry operations associated with 422 (tetragonal, no inversion symmetry) are:
+
+1. 4-FOLD ROTATION SYMMETRY AROUND Z-AXIS
+4z (4-fold rotation symmetry around z-axis), described by R(4z) for which
+det(R(4z)) = 1 (being a proper rotation):
+⎡0   1  0⎤
+⎢        ⎥
+⎢-1  0  0⎥
+⎢        ⎥
+⎣0   0  1⎦
+
+2. 2-FOLD ROTATION SYMMETRY AROUND X-AXIS
+2x (2-fold rotation symmetry around x-axis), described by R(2x) for which
+det(R(2x)) = 1 (being a proper rotation):
+⎡1  0   0 ⎤
+⎢         ⎥
+⎢0  -1  0 ⎥
+⎢         ⎥
+⎣0  0   -1⎦
+
+3. 2-FOLD ROTATION SYMMETRY AROUND Y-AXIS
+2y (2-fold rotation symmetry around y-axis), described by R(2y) for which
+det(R(2y)) = 1 (being a proper rotation):
+⎡-1  0  0 ⎤
+⎢         ⎥
+⎢0   1  0 ⎥
+⎢         ⎥
+⎣0   0  -1⎦
+
+4. 2-FOLD ROTATION SYMMETRY AROUND Z-AXIS
+2z (2-fold rotation symmetry around z-axis), described by R(2z) for which
+det(R(2z)) = 1 (being a proper rotation):
+⎡-1  0   0⎤
+⎢         ⎥
+⎢0   -1  0⎥
+⎢         ⎥
+⎣0   0   1⎦
+
+Compiling equation system from the 4 symmetries of point-symmetry group 422
+(tetragonal, no inversion symmetry).
+Solving system of 20 equations for nonzero elements.
+================================================================================
+POINT SYMMETRY GROUP 422 (TETRAGONAL, NO INVERSION SYMMETRY)
+
+For the axial (pseudo) tensor of rank 2 (for which there in a completely non-
+symmetrical case would be a maximum of 9 elements) under constraint of point-
+symmetry group 422 (tetragonal, no inversion symmetry), there are 3 nonzero
+elements, of which 2 are independent.
+
+The 2 independent and nonzero tensor elements are as follows:
+       1.  xx = yy
+       2.  zz = independent
+================================================================================

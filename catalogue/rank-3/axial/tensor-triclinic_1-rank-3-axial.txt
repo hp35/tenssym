@@ -1,0 +1,54 @@
+Summary generated Thu Jan  5 01:15:41 AM CET 2023 for
+point-symmetry group triclinic_1, axial tensor of rank 3.
+================================================================================
+Symmetry operations associated with 1 (triclinic, no inversion symmetry) are:
+
+1. IDENTITY OPERATION
+I (identity operation), described by R(I) for which det(R(I)) = 1 (being a
+proper rotation):
+⎡1  0  0⎤
+⎢       ⎥
+⎢0  1  0⎥
+⎢       ⎥
+⎣0  0  1⎦
+
+Compiling equation system from the 1 symmetries of point-symmetry group 1
+(triclinic, no inversion symmetry).
+No linearly independent equations found from system.
+================================================================================
+POINT SYMMETRY GROUP 1 (TRICLINIC, NO INVERSION SYMMETRY)
+
+For the axial (pseudo) tensor of rank 3 (for which there in a completely non-
+symmetrical case would be a maximum of 27 elements) under constraint of point-
+symmetry group 1 (triclinic, no inversion symmetry), there are 27 nonzero
+elements, of which 27 are independent.
+
+The 27 independent and nonzero tensor elements are as follows:
+       1.  xxx = independent
+       2.  xxy = independent
+       3.  xxz = independent
+       4.  xyx = independent
+       5.  xyy = independent
+       6.  xyz = independent
+       7.  xzx = independent
+       8.  xzy = independent
+       9.  xzz = independent
+      10.  yxx = independent
+      11.  yxy = independent
+      12.  yxz = independent
+      13.  yyx = independent
+      14.  yyy = independent
+      15.  yyz = independent
+      16.  yzx = independent
+      17.  yzy = independent
+      18.  yzz = independent
+      19.  zxx = independent
+      20.  zxy = independent
+      21.  zxz = independent
+      22.  zyx = independent
+      23.  zyy = independent
+      24.  zyz = independent
+      25.  zzx = independent
+      26.  zzy = independent
+      27.  zzz = independent
+================================================================================

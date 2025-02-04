@@ -1,0 +1,108 @@
+Summary generated Thu Jan  5 01:15:38 AM CET 2023 for
+point-symmetry group triclinic_1, polar tensor of rank 4.
+================================================================================
+Symmetry operations associated with 1 (triclinic, no inversion symmetry) are:
+
+1. IDENTITY OPERATION
+I (identity operation), described by R(I) for which det(R(I)) = 1 (being a
+proper rotation):
+⎡1  0  0⎤
+⎢       ⎥
+⎢0  1  0⎥
+⎢       ⎥
+⎣0  0  1⎦
+
+Compiling equation system from the 1 symmetries of point-symmetry group 1
+(triclinic, no inversion symmetry).
+No linearly independent equations found from system.
+================================================================================
+POINT SYMMETRY GROUP 1 (TRICLINIC, NO INVERSION SYMMETRY)
+
+For the polar (true) tensor of rank 4 (for which there in a completely non-
+symmetrical case would be a maximum of 81 elements) under constraint of point-
+symmetry group 1 (triclinic, no inversion symmetry), there are 81 nonzero
+elements, of which 81 are independent.
+
+The 81 independent and nonzero tensor elements are as follows:
+       1.  xxxx = independent
+       2.  xxxy = independent
+       3.  xxxz = independent
+       4.  xxyx = independent
+       5.  xxyy = independent
+       6.  xxyz = independent
+       7.  xxzx = independent
+       8.  xxzy = independent
+       9.  xxzz = independent
+      10.  xyxx = independent
+      11.  xyxy = independent
+      12.  xyxz = independent
+      13.  xyyx = independent
+      14.  xyyy = independent
+      15.  xyyz = independent
+      16.  xyzx = independent
+      17.  xyzy = independent
+      18.  xyzz = independent
+      19.  xzxx = independent
+      20.  xzxy = independent
+      21.  xzxz = independent
+      22.  xzyx = independent
+      23.  xzyy = independent
+      24.  xzyz = independent
+      25.  xzzx = independent
+      26.  xzzy = independent
+      27.  xzzz = independent
+      28.  yxxx = independent
+      29.  yxxy = independent
+      30.  yxxz = independent
+      31.  yxyx = independent
+      32.  yxyy = independent
+      33.  yxyz = independent
+      34.  yxzx = independent
+      35.  yxzy = independent
+      36.  yxzz = independent
+      37.  yyxx = independent
+      38.  yyxy = independent
+      39.  yyxz = independent
+      40.  yyyx = independent
+      41.  yyyy = independent
+      42.  yyyz = independent
+      43.  yyzx = independent
+      44.  yyzy = independent
+      45.  yyzz = independent
+      46.  yzxx = independent
+      47.  yzxy = independent
+      48.  yzxz = independent
+      49.  yzyx = independent
+      50.  yzyy = independent
+      51.  yzyz = independent
+      52.  yzzx = independent
+      53.  yzzy = independent
+      54.  yzzz = independent
+      55.  zxxx = independent
+      56.  zxxy = independent
+      57.  zxxz = independent
+      58.  zxyx = independent
+      59.  zxyy = independent
+      60.  zxyz = independent
+      61.  zxzx = independent
+      62.  zxzy = independent
+      63.  zxzz = independent
+      64.  zyxx = independent
+      65.  zyxy = independent
+      66.  zyxz = independent
+      67.  zyyx = independent
+      68.  zyyy = independent
+      69.  zyyz = independent
+      70.  zyzx = independent
+      71.  zyzy = independent
+      72.  zyzz = independent
+      73.  zzxx = independent
+      74.  zzxy = independent
+      75.  zzxz = independent
+      76.  zzyx = independent
+      77.  zzyy = independent
+      78.  zzyz = independent
+      79.  zzzx = independent
+      80.  zzzy = independent
+      81.  zzzz = independent
+================================================================================

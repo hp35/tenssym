@@ -1,0 +1,55 @@
+Summary generated Thu Jan  5 01:13:50 AM CET 2023 for
+point-symmetry group cubic_4bar3m, axial tensor of rank 5.
+================================================================================
+Symmetry operations associated with 43m (cubic, inversion symmetry) are:
+
+1. 4-FOLD ROTATION SYMMETRY AROUND Z-AXIS WITH INVERSION APPLIED ALONG Z AXIS
+4z (4-fold rotation symmetry around z-axis with inversion applied along z axis),
+described by R(4z) for which det(R(4z)) = -1 (being a improper rotation):
+⎡0   1  0 ⎤
+⎢         ⎥
+⎢-1  0  0 ⎥
+⎢         ⎥
+⎣0   0  -1⎦
+
+2. 3-FOLD ROTATION SYMMETRY AROUND XYZ-DIAGONAL
+3xyz (3-fold rotation symmetry around xyz-diagonal), described by R(3xyz) for
+which det(R(3xyz)) = 1 (being a proper rotation):
+⎡0  1  0⎤
+⎢       ⎥
+⎢0  0  1⎥
+⎢       ⎥
+⎣1  0  0⎦
+
+3. 2-FOLD ROTATION SYMMETRY AROUND Z-AXIS
+2z (2-fold rotation symmetry around z-axis), described by R(2z) for which
+det(R(2z)) = 1 (being a proper rotation):
+⎡-1  0   0⎤
+⎢         ⎥
+⎢0   -1  0⎥
+⎢         ⎥
+⎣0   0   1⎦
+
+Compiling equation system from the 3 symmetries of point-symmetry group 43m
+(cubic, inversion symmetry).
+Solving system of 607 equations for nonzero elements.
+================================================================================
+POINT SYMMETRY GROUP 43M (CUBIC, INVERSION SYMMETRY)
+
+For the axial (pseudo) tensor of rank 5 (for which there in a completely non-
+symmetrical case would be a maximum of 243 elements) under constraint of point-
+symmetry group 43m (cubic, inversion symmetry), there are 60 nonzero elements,
+of which 10 are independent.
+
+The 10 independent and nonzero tensor elements are as follows:
+       1.  xxxyz = yyyzx = zzzxy = -xxxzy = -yyyxz = -zzzyx
+       2.  xxyxz = yyzyx = zzxzy = -xxzxy = -yyxyz = -zzyzx
+       3.  xxyzx = yyzxy = zzxyz = -xxzyx = -yyxzy = -zzyxz
+       4.  xyxxz = yzyyx = zxzzy = -xzxxy = -yxyyz = -zyzzx
+       5.  xyxzx = yzyxy = zxzyz = -xzxyx = -yxyzy = -zyzxz
+       6.  xyyyz = yzzzx = zxxxy = -xzzzy = -yxxxz = -zyyyx
+       7.  xyyzy = yzzxz = zxxyx = -xzzyz = -yxxzx = -zyyxy
+       8.  xyzxx = yzxyy = zxyzz = -xzyxx = -yxzyy = -zyxzz
+       9.  xyzyy = yzxzz = zxyxx = -xzyzz = -yxzxx = -zyxyy
+      10.  xyzzz = yzxxx = zxyyy = -xzyyy = -yxzzz = -zyxxx
+================================================================================

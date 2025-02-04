@@ -1,0 +1,47 @@
+Summary generated Thu Jan  5 01:14:04 AM CET 2023 for
+point-symmetry group cubic_23, axial tensor of rank 3.
+================================================================================
+Symmetry operations associated with 23 (cubic, no inversion symmetry) are:
+
+1. 2-FOLD ROTATION SYMMETRY AROUND Z-AXIS
+2z (2-fold rotation symmetry around z-axis), described by R(2z) for which
+det(R(2z)) = 1 (being a proper rotation):
+⎡-1  0   0⎤
+⎢         ⎥
+⎢0   -1  0⎥
+⎢         ⎥
+⎣0   0   1⎦
+
+2. 3-FOLD ROTATION SYMMETRY AROUND XYZ-DIAGONAL
+3xyz (3-fold rotation symmetry around xyz-diagonal), described by R(3xyz) for
+which det(R(3xyz)) = 1 (being a proper rotation):
+⎡0  1  0⎤
+⎢       ⎥
+⎢0  0  1⎥
+⎢       ⎥
+⎣1  0  0⎦
+
+3. 2-FOLD ROTATION SYMMETRY AROUND X-AXIS
+2x (2-fold rotation symmetry around x-axis), described by R(2x) for which
+det(R(2x)) = 1 (being a proper rotation):
+⎡1  0   0 ⎤
+⎢         ⎥
+⎢0  -1  0 ⎥
+⎢         ⎥
+⎣0  0   -1⎦
+
+Compiling equation system from the 3 symmetries of point-symmetry group 23
+(cubic, no inversion symmetry).
+Solving system of 55 equations for nonzero elements.
+================================================================================
+POINT SYMMETRY GROUP 23 (CUBIC, NO INVERSION SYMMETRY)
+
+For the axial (pseudo) tensor of rank 3 (for which there in a completely non-
+symmetrical case would be a maximum of 27 elements) under constraint of point-
+symmetry group 23 (cubic, no inversion symmetry), there are 6 nonzero elements,
+of which 2 are independent.
+
+The 2 independent and nonzero tensor elements are as follows:
+       1.  xyz = yzx = zxy
+       2.  xzy = yxz = zyx
+================================================================================

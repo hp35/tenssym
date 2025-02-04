@@ -1,0 +1,46 @@
+Summary generated Thu Jan  5 01:13:40 AM CET 2023 for
+point-symmetry group cubic_4bar3m, polar tensor of rank 2.
+================================================================================
+Symmetry operations associated with 43m (cubic, inversion symmetry) are:
+
+1. 4-FOLD ROTATION SYMMETRY AROUND Z-AXIS WITH INVERSION APPLIED ALONG Z AXIS
+4z (4-fold rotation symmetry around z-axis with inversion applied along z axis),
+described by R(4z) for which det(R(4z)) = -1 (being a improper rotation):
+⎡0   1  0 ⎤
+⎢         ⎥
+⎢-1  0  0 ⎥
+⎢         ⎥
+⎣0   0  -1⎦
+
+2. 3-FOLD ROTATION SYMMETRY AROUND XYZ-DIAGONAL
+3xyz (3-fold rotation symmetry around xyz-diagonal), described by R(3xyz) for
+which det(R(3xyz)) = 1 (being a proper rotation):
+⎡0  1  0⎤
+⎢       ⎥
+⎢0  0  1⎥
+⎢       ⎥
+⎣1  0  0⎦
+
+3. 2-FOLD ROTATION SYMMETRY AROUND Z-AXIS
+2z (2-fold rotation symmetry around z-axis), described by R(2z) for which
+det(R(2z)) = 1 (being a proper rotation):
+⎡-1  0   0⎤
+⎢         ⎥
+⎢0   -1  0⎥
+⎢         ⎥
+⎣0   0   1⎦
+
+Compiling equation system from the 3 symmetries of point-symmetry group 43m
+(cubic, inversion symmetry).
+Solving system of 21 equations for nonzero elements.
+================================================================================
+POINT SYMMETRY GROUP 43M (CUBIC, INVERSION SYMMETRY)
+
+For the polar (true) tensor of rank 2 (for which there in a completely non-
+symmetrical case would be a maximum of 9 elements) under constraint of point-
+symmetry group 43m (cubic, inversion symmetry), there are 3 nonzero elements, of
+which 1 are independent.
+
+The 1 independent and nonzero tensor elements are as follows:
+       1.  xx = yy = zz
+================================================================================

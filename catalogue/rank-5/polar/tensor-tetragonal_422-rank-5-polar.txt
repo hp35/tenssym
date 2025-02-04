@@ -1,0 +1,84 @@
+Summary generated Thu Jan  5 01:15:47 AM CET 2023 for
+point-symmetry group tetragonal_422, polar tensor of rank 5.
+================================================================================
+Symmetry operations associated with 422 (tetragonal, no inversion symmetry) are:
+
+1. 4-FOLD ROTATION SYMMETRY AROUND Z-AXIS
+4z (4-fold rotation symmetry around z-axis), described by R(4z) for which
+det(R(4z)) = 1 (being a proper rotation):
+⎡0   1  0⎤
+⎢        ⎥
+⎢-1  0  0⎥
+⎢        ⎥
+⎣0   0  1⎦
+
+2. 2-FOLD ROTATION SYMMETRY AROUND X-AXIS
+2x (2-fold rotation symmetry around x-axis), described by R(2x) for which
+det(R(2x)) = 1 (being a proper rotation):
+⎡1  0   0 ⎤
+⎢         ⎥
+⎢0  -1  0 ⎥
+⎢         ⎥
+⎣0  0   -1⎦
+
+3. 2-FOLD ROTATION SYMMETRY AROUND Y-AXIS
+2y (2-fold rotation symmetry around y-axis), described by R(2y) for which
+det(R(2y)) = 1 (being a proper rotation):
+⎡-1  0  0 ⎤
+⎢         ⎥
+⎢0   1  0 ⎥
+⎢         ⎥
+⎣0   0  -1⎦
+
+4. 2-FOLD ROTATION SYMMETRY AROUND Z-AXIS
+2z (2-fold rotation symmetry around z-axis), described by R(2z) for which
+det(R(2z)) = 1 (being a proper rotation):
+⎡-1  0   0⎤
+⎢         ⎥
+⎢0   -1  0⎥
+⎢         ⎥
+⎣0   0   1⎦
+
+Compiling equation system from the 4 symmetries of point-symmetry group 422
+(tetragonal, no inversion symmetry).
+Solving system of 608 equations for nonzero elements.
+================================================================================
+POINT SYMMETRY GROUP 422 (TETRAGONAL, NO INVERSION SYMMETRY)
+
+For the polar (true) tensor of rank 5 (for which there in a completely non-
+symmetrical case would be a maximum of 243 elements) under constraint of point-
+symmetry group 422 (tetragonal, no inversion symmetry), there are 60 nonzero
+elements, of which 30 are independent.
+
+The 30 independent and nonzero tensor elements are as follows:
+       1.  xxxyz = -yyyxz
+       2.  xxxzy = -yyyzx
+       3.  xxyxz = -yyxyz
+       4.  xxyzx = -yyxzy
+       5.  xxzxy = -yyzyx
+       6.  xxzyx = -yyzxy
+       7.  xyxxz = -yxyyz
+       8.  xyxzx = -yxyzy
+       9.  xyyyz = -yxxxz
+      10.  xyyzy = -yxxzx
+      11.  xyzxx = -yxzyy
+      12.  xyzyy = -yxzxx
+      13.  xyzzz = -yxzzz
+      14.  xzxxy = -yzyyx
+      15.  xzxyx = -yzyxy
+      16.  xzyxx = -yzxyy
+      17.  xzyyy = -yzxxx
+      18.  xzyzz = -yzxzz
+      19.  xzzyz = -yzzxz
+      20.  xzzzy = -yzzzx
+      21.  zxxxy = -zyyyx
+      22.  zxxyx = -zyyxy
+      23.  zxyxx = -zyxyy
+      24.  zxyyy = -zyxxx
+      25.  zxyzz = -zyxzz
+      26.  zxzyz = -zyzxz
+      27.  zxzzy = -zyzzx
+      28.  zzxyz = -zzyxz
+      29.  zzxzy = -zzyzx
+      30.  zzzxy = -zzzyx
+================================================================================

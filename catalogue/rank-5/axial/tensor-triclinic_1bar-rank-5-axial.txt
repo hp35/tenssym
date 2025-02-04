@@ -1,0 +1,271 @@
+Summary generated Thu Jan  5 01:15:35 AM CET 2023 for
+point-symmetry group triclinic_1bar, axial tensor of rank 5.
+================================================================================
+Symmetry operations associated with 1 (triclinic, inversion symmetry for all
+axes) are:
+
+1. IDENTITY OPERATION WITH INVERSION APPLIED ALONG XYZ AXIS
+I (identity operation with inversion applied along xyz axis), described by R(I)
+for which det(R(I)) = -1 (being a improper rotation):
+⎡-1  0   0 ⎤
+⎢          ⎥
+⎢0   -1  0 ⎥
+⎢          ⎥
+⎣0   0   -1⎦
+
+Compiling equation system from the 1 symmetries of point-symmetry group 1
+(triclinic, inversion symmetry for all axes).
+No linearly independent equations found from system.
+================================================================================
+POINT SYMMETRY GROUP 1 (TRICLINIC, INVERSION SYMMETRY FOR ALL AXES)
+
+For the axial (pseudo) tensor of rank 5 (for which there in a completely non-
+symmetrical case would be a maximum of 243 elements) under constraint of point-
+symmetry group 1 (triclinic, inversion symmetry for all axes), there are 243
+nonzero elements, of which 243 are independent.
+
+The 243 independent and nonzero tensor elements are as follows:
+       1.  xxxxx = independent
+       2.  xxxxy = independent
+       3.  xxxxz = independent
+       4.  xxxyx = independent
+       5.  xxxyy = independent
+       6.  xxxyz = independent
+       7.  xxxzx = independent
+       8.  xxxzy = independent
+       9.  xxxzz = independent
+      10.  xxyxx = independent
+      11.  xxyxy = independent
+      12.  xxyxz = independent
+      13.  xxyyx = independent
+      14.  xxyyy = independent
+      15.  xxyyz = independent
+      16.  xxyzx = independent
+      17.  xxyzy = independent
+      18.  xxyzz = independent
+      19.  xxzxx = independent
+      20.  xxzxy = independent
+      21.  xxzxz = independent
+      22.  xxzyx = independent
+      23.  xxzyy = independent
+      24.  xxzyz = independent
+      25.  xxzzx = independent
+      26.  xxzzy = independent
+      27.  xxzzz = independent
+      28.  xyxxx = independent
+      29.  xyxxy = independent
+      30.  xyxxz = independent
+      31.  xyxyx = independent
+      32.  xyxyy = independent
+      33.  xyxyz = independent
+      34.  xyxzx = independent
+      35.  xyxzy = independent
+      36.  xyxzz = independent
+      37.  xyyxx = independent
+      38.  xyyxy = independent
+      39.  xyyxz = independent
+      40.  xyyyx = independent
+      41.  xyyyy = independent
+      42.  xyyyz = independent
+      43.  xyyzx = independent
+      44.  xyyzy = independent
+      45.  xyyzz = independent
+      46.  xyzxx = independent
+      47.  xyzxy = independent
+      48.  xyzxz = independent
+      49.  xyzyx = independent
+      50.  xyzyy = independent
+      51.  xyzyz = independent
+      52.  xyzzx = independent
+      53.  xyzzy = independent
+      54.  xyzzz = independent
+      55.  xzxxx = independent
+      56.  xzxxy = independent
+      57.  xzxxz = independent
+      58.  xzxyx = independent
+      59.  xzxyy = independent
+      60.  xzxyz = independent
+      61.  xzxzx = independent
+      62.  xzxzy = independent
+      63.  xzxzz = independent
+      64.  xzyxx = independent
+      65.  xzyxy = independent
+      66.  xzyxz = independent
+      67.  xzyyx = independent
+      68.  xzyyy = independent
+      69.  xzyyz = independent
+      70.  xzyzx = independent
+      71.  xzyzy = independent
+      72.  xzyzz = independent
+      73.  xzzxx = independent
+      74.  xzzxy = independent
+      75.  xzzxz = independent
+      76.  xzzyx = independent
+      77.  xzzyy = independent
+      78.  xzzyz = independent
+      79.  xzzzx = independent
+      80.  xzzzy = independent
+      81.  xzzzz = independent
+      82.  yxxxx = independent
+      83.  yxxxy = independent
+      84.  yxxxz = independent
+      85.  yxxyx = independent
+      86.  yxxyy = independent
+      87.  yxxyz = independent
+      88.  yxxzx = independent
+      89.  yxxzy = independent
+      90.  yxxzz = independent
+      91.  yxyxx = independent
+      92.  yxyxy = independent
+      93.  yxyxz = independent
+      94.  yxyyx = independent
+      95.  yxyyy = independent
+      96.  yxyyz = independent
+      97.  yxyzx = independent
+      98.  yxyzy = independent
+      99.  yxyzz = independent
+     100.  yxzxx = independent
+     101.  yxzxy = independent
+     102.  yxzxz = independent
+     103.  yxzyx = independent
+     104.  yxzyy = independent
+     105.  yxzyz = independent
+     106.  yxzzx = independent
+     107.  yxzzy = independent
+     108.  yxzzz = independent
+     109.  yyxxx = independent
+     110.  yyxxy = independent
+     111.  yyxxz = independent
+     112.  yyxyx = independent
+     113.  yyxyy = independent
+     114.  yyxyz = independent
+     115.  yyxzx = independent
+     116.  yyxzy = independent
+     117.  yyxzz = independent
+     118.  yyyxx = independent
+     119.  yyyxy = independent
+     120.  yyyxz = independent
+     121.  yyyyx = independent
+     122.  yyyyy = independent
+     123.  yyyyz = independent
+     124.  yyyzx = independent
+     125.  yyyzy = independent
+     126.  yyyzz = independent
+     127.  yyzxx = independent
+     128.  yyzxy = independent
+     129.  yyzxz = independent
+     130.  yyzyx = independent
+     131.  yyzyy = independent
+     132.  yyzyz = independent
+     133.  yyzzx = independent
+     134.  yyzzy = independent
+     135.  yyzzz = independent
+     136.  yzxxx = independent
+     137.  yzxxy = independent
+     138.  yzxxz = independent
+     139.  yzxyx = independent
+     140.  yzxyy = independent
+     141.  yzxyz = independent
+     142.  yzxzx = independent
+     143.  yzxzy = independent
+     144.  yzxzz = independent
+     145.  yzyxx = independent
+     146.  yzyxy = independent
+     147.  yzyxz = independent
+     148.  yzyyx = independent
+     149.  yzyyy = independent
+     150.  yzyyz = independent
+     151.  yzyzx = independent
+     152.  yzyzy = independent
+     153.  yzyzz = independent
+     154.  yzzxx = independent
+     155.  yzzxy = independent
+     156.  yzzxz = independent
+     157.  yzzyx = independent
+     158.  yzzyy = independent
+     159.  yzzyz = independent
+     160.  yzzzx = independent
+     161.  yzzzy = independent
+     162.  yzzzz = independent
+     163.  zxxxx = independent
+     164.  zxxxy = independent
+     165.  zxxxz = independent
+     166.  zxxyx = independent
+     167.  zxxyy = independent
+     168.  zxxyz = independent
+     169.  zxxzx = independent
+     170.  zxxzy = independent
+     171.  zxxzz = independent
+     172.  zxyxx = independent
+     173.  zxyxy = independent
+     174.  zxyxz = independent
+     175.  zxyyx = independent
+     176.  zxyyy = independent
+     177.  zxyyz = independent
+     178.  zxyzx = independent
+     179.  zxyzy = independent
+     180.  zxyzz = independent
+     181.  zxzxx = independent
+     182.  zxzxy = independent
+     183.  zxzxz = independent
+     184.  zxzyx = independent
+     185.  zxzyy = independent
+     186.  zxzyz = independent
+     187.  zxzzx = independent
+     188.  zxzzy = independent
+     189.  zxzzz = independent
+     190.  zyxxx = independent
+     191.  zyxxy = independent
+     192.  zyxxz = independent
+     193.  zyxyx = independent
+     194.  zyxyy = independent
+     195.  zyxyz = independent
+     196.  zyxzx = independent
+     197.  zyxzy = independent
+     198.  zyxzz = independent
+     199.  zyyxx = independent
+     200.  zyyxy = independent
+     201.  zyyxz = independent
+     202.  zyyyx = independent
+     203.  zyyyy = independent
+     204.  zyyyz = independent
+     205.  zyyzx = independent
+     206.  zyyzy = independent
+     207.  zyyzz = independent
+     208.  zyzxx = independent
+     209.  zyzxy = independent
+     210.  zyzxz = independent
+     211.  zyzyx = independent
+     212.  zyzyy = independent
+     213.  zyzyz = independent
+     214.  zyzzx = independent
+     215.  zyzzy = independent
+     216.  zyzzz = independent
+     217.  zzxxx = independent
+     218.  zzxxy = independent
+     219.  zzxxz = independent
+     220.  zzxyx = independent
+     221.  zzxyy = independent
+     222.  zzxyz = independent
+     223.  zzxzx = independent
+     224.  zzxzy = independent
+     225.  zzxzz = independent
+     226.  zzyxx = independent
+     227.  zzyxy = independent
+     228.  zzyxz = independent
+     229.  zzyyx = independent
+     230.  zzyyy = independent
+     231.  zzyyz = independent
+     232.  zzyzx = independent
+     233.  zzyzy = independent
+     234.  zzyzz = independent
+     235.  zzzxx = independent
+     236.  zzzxy = independent
+     237.  zzzxz = independent
+     238.  zzzyx = independent
+     239.  zzzyy = independent
+     240.  zzzyz = independent
+     241.  zzzzx = independent
+     242.  zzzzy = independent
+     243.  zzzzz = independent
+================================================================================

@@ -1,0 +1,25 @@
+Summary generated Thu Jan  5 01:15:31 AM CET 2023 for
+point-symmetry group triclinic_1bar, polar tensor of rank 5.
+================================================================================
+Symmetry operations associated with 1 (triclinic, inversion symmetry for all
+axes) are:
+
+1. IDENTITY OPERATION WITH INVERSION APPLIED ALONG XYZ AXIS
+I (identity operation with inversion applied along xyz axis), described by R(I)
+for which det(R(I)) = -1 (being a improper rotation):
+⎡-1  0   0 ⎤
+⎢          ⎥
+⎢0   -1  0 ⎥
+⎢          ⎥
+⎣0   0   -1⎦
+
+Compiling equation system from the 1 symmetries of point-symmetry group 1
+(triclinic, inversion symmetry for all axes).
+Solving system of 243 equations for nonzero elements.
+================================================================================
+POINT SYMMETRY GROUP 1 (TRICLINIC, INVERSION SYMMETRY FOR ALL AXES)
+
+For the polar (true) tensor of rank 5 (for which there in a completely non-
+symmetrical case would be a maximum of 243 elements) under constraint of point-
+symmetry group 1 (triclinic, inversion symmetry for all axes), there are 0
+nonzero elements, of which 0 are independent.

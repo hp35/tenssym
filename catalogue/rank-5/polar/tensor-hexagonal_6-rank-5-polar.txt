@@ -1,0 +1,82 @@
+Summary generated Thu Jan  5 01:17:08 AM CET 2023 for
+point-symmetry group hexagonal_6, polar tensor of rank 5.
+================================================================================
+Symmetry operations associated with 6 (hexagonal, no inversion symmetry) are:
+
+1. 6-FOLD ROTATION SYMMETRY AROUND Z-AXIS
+6z (6-fold rotation symmetry around z-axis), described by R(6z) for which
+det(R(6z)) = 1 (being a proper rotation):
+⎡      √3    ⎤
+⎢1/2   ──   0⎥
+⎢      2     ⎥
+⎢            ⎥
+⎢-√3         ⎥
+⎢────  1/2  0⎥
+⎢ 2          ⎥
+⎢            ⎥
+⎣ 0     0   1⎦
+
+Compiling equation system from the 1 symmetries of point-symmetry group 6
+(hexagonal, no inversion symmetry).
+Solving system of 242 equations for nonzero elements.
+================================================================================
+POINT SYMMETRY GROUP 6 (HEXAGONAL, NO INVERSION SYMMETRY)
+
+For the polar (true) tensor of rank 5 (for which there in a completely non-
+symmetrical case would be a maximum of 243 elements) under constraint of point-
+symmetry group 6 (hexagonal, no inversion symmetry), there are 121 nonzero
+elements, of which 51 are independent.
+
+The 51 independent and nonzero tensor elements are as follows:
+       1.  xxxxz = yyyyz
+       2.  xxxyz = -yyyxz
+       3.  xxyxz = -yyxyz = xyyyz + yxyyz + yyyxz = -yxxxz + yxyyz + yyyxz
+       4.  xxyyz = yyxxz
+       5.  xyxxz = -yxyyz
+       6.  xyxyz = yxyxz = -xyyxz - yyxxz + yyyyz = -yxxyz - yyxxz + yyyyz
+       7.  xxxzx = yyyzy
+       8.  xxxzy = -yyyzx
+       9.  xxyzx = -yyxzy
+      10.  xxyzy = yyxzx
+      11.  xyxzx = -yxyzy = xyyzy + yyxzy + yyyzx = -yxxzx + yyxzy + yyyzx
+      12.  xyxzy = yxyzx = -xyyzx - yyxzx + yyyzy = -yxxzy - yyxzx + yyyzy
+      13.  xxzxx = yyzyy = xyzyx + yxzyx + yyzxx = yxzxy + yxzyx + yyzxx
+      14.  xxzxy = -yyzyx = xyzyy + yxzyy + yyzxy = -yxzxx + yxzyy + yyzxy
+      15.  xxzyx = -yyzxy
+      16.  xxzyy = yyzxx
+      17.  xyzxx = -yxzyy
+      18.  xyzxy = yxzyx
+      19.  xxzzz = yyzzz
+      20.  xyzzz = -yxzzz
+      21.  xzxxx = yzyyy
+      22.  xzxxy = -yzyyx
+      23.  xzxyx = -yzyxy = xzyyy + yzxyy + yzyyx = -yzxxx + yzxyy + yzyyx
+      24.  xzxyy = yzyxx = -yzxxy - yzxyx + yzyyy = -xzyyx - yzxyx + yzyyy
+      25.  xzyxx = -yzxyy
+      26.  xzyxy = yzxyx
+      27.  xzxzz = yzyzz
+      28.  xzyzz = -yzxzz
+      29.  xzzxz = yzzyz
+      30.  xzzyz = -yzzxz
+      31.  xzzzx = yzzzy
+      32.  xzzzy = -yzzzx
+      33.  zxxxx = zyyyy
+      34.  zxxxy = -zyyyx = zxyyy + zyxyy + zyyxy = -zyxxx + zyxyy + zyyxy
+      35.  zxxyx = -zyyxy
+      36.  zxxyy = zyyxx
+      37.  zxyxx = -zyxyy
+      38.  zxyxy = zyxyx = -zxyyx - zyyxx + zyyyy = -zyxxy - zyyxx + zyyyy
+      39.  zxxzz = zyyzz
+      40.  zxyzz = -zyxzz
+      41.  zxzxz = zyzyz
+      42.  zxzyz = -zyzxz
+      43.  zxzzx = zyzzy
+      44.  zxzzy = -zyzzx
+      45.  zzxxz = zzyyz
+      46.  zzxyz = -zzyxz
+      47.  zzxzx = zzyzy
+      48.  zzxzy = -zzyzx
+      49.  zzzxx = zzzyy
+      50.  zzzxy = -zzzyx
+      51.  zzzzz = independent
+================================================================================

@@ -1,0 +1,78 @@
+Summary generated Thu Jan  5 01:15:20 AM CET 2023 for
+point-symmetry group trigonal_32_2y, axial tensor of rank 5.
+================================================================================
+Symmetry operations associated with 32 (trigonal, no inversion symmetry, 2-fold
+y-symmetry) are:
+
+1. 3-FOLD ROTATION SYMMETRY AROUND Z-AXIS
+3z (3-fold rotation symmetry around z-axis), described by R(3z) for which
+det(R(3z)) = 1 (being a proper rotation):
+⎡       √3    ⎤
+⎢-1/2   ──   0⎥
+⎢       2     ⎥
+⎢             ⎥
+⎢-√3          ⎥
+⎢────  -1/2  0⎥
+⎢ 2           ⎥
+⎢             ⎥
+⎣ 0     0    1⎦
+
+2. 2-FOLD ROTATION SYMMETRY AROUND Y-AXIS
+2y (2-fold rotation symmetry around y-axis), described by R(2y) for which
+det(R(2y)) = 1 (being a proper rotation):
+⎡-1  0  0 ⎤
+⎢         ⎥
+⎢0   1  0 ⎥
+⎢         ⎥
+⎣0   0  -1⎦
+
+Compiling equation system from the 2 symmetries of point-symmetry group 32
+(trigonal, no inversion symmetry, 2-fold y-symmetry).
+Solving system of 364 equations for nonzero elements.
+================================================================================
+POINT SYMMETRY GROUP 32 (TRIGONAL, NO INVERSION SYMMETRY, 2-FOLD Y-SYMMETRY)
+
+For the axial (pseudo) tensor of rank 5 (for which there in a completely non-
+symmetrical case would be a maximum of 243 elements) under constraint of point-
+symmetry group 32 (trigonal, no inversion symmetry, 2-fold y-symmetry), there
+are 116 nonzero elements, of which 37 are independent.
+
+The 37 independent and nonzero tensor elements are as follows:
+       1.  xxxxy = -xxyyy - yyxxy - yyyyy = xyyxy + yxyyx + yyxyx = xyyyx + yxxyy + yyyxx = xyyyx + yxyxy + yyxyx = xyyyx + yxyyx + yyxxy = xyyyx - yxxxx - yyyyy = xxxyx - yyxxy + yyxyx = xyyxy + yxxyy - yyxxy + yyxyx + yyyxx = xyyxy - yxxxx - yyxxy + yyxyx - yyyyy = -xxyxx + yyxyx - yyyyy = xyyxy + yxyxy - yyxxy + 2*yyxyx = -yyxxy/2 + yyxyx/2 + yyyxx/2 - yyyyy/2
+       2.  xyxxx = -xyxyy - yyyxx - yyyyy = yxyyx + yyxxy/2 - yyxyx/2 - yyyxx/2 - yyyyy/2
+       3.  xxxyz = -yyyxz = xyyyz + yxyyz + yyxyz = -yxxxz + yxyyz + yyxyz
+       4.  xxyxz = -yyxyz
+       5.  xyxxz = -yxyyz
+       6.  xxxzy = -yyyzx = xyyzy + yxyzy + yyxzy = -yxxzx + yxyzy + yyxzy
+       7.  xxyzx = -yyxzy
+       8.  xyxzx = -yxyzy
+       9.  xxyzz = -yyyzz = xyxzz = yxxzz
+      10.  xxzxy = -yyzyx = xyzyy + yxzyy + yyzxy = -yxzxx + yxzyy + yyzxy
+      11.  xxzyx = -yyzxy
+      12.  xyzxx = -yxzyy
+      13.  xxzyz = -yyzyz = xyzxz = yxzxz
+      14.  xxzzy = -yyzzy = xyzzx = yxzzx
+      15.  xyzzz = -yxzzz
+      16.  xzxxy = -yzyyx
+      17.  xzxyx = -yzyxy
+      18.  xzyxx = -yzxyy = xzyyy + yzyxy + yzyyx = -yzxxx + yzyxy + yzyyx
+      19.  xzxyz = -yzyyz = xzyxz = yzxxz
+      20.  xzxzy = -yzyzy = xzyzx = yzxzx
+      21.  xzyzz = -yzxzz
+      22.  xzzxy = -yzzyy = xzzyx = yzzxx
+      23.  xzzyz = -yzzxz
+      24.  xzzzy = -yzzzx
+      25.  zxxxy = -zyyyx = zxyyy + zyxyy + zyyxy = -zyxxx + zyxyy + zyyxy
+      26.  zxxyx = -zyyxy
+      27.  zxyxx = -zyxyy
+      28.  zxxyz = -zyyyz = zxyxz = zyxxz
+      29.  zxxzy = -zyyzy = zxyzx = zyxzx
+      30.  zxyzz = -zyxzz
+      31.  zxzxy = -zyzyy = zxzyx = zyzxx
+      32.  zxzyz = -zyzxz
+      33.  zxzzy = -zyzzx
+      34.  zzxxy = -zzyyy = zzxyx = zzyxx
+      35.  zzxyz = -zzyxz
+      36.  zzxzy = -zzyzx
+      37.  zzzxy = -zzzyx
+================================================================================

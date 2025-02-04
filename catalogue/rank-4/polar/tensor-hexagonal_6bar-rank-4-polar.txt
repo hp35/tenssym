@@ -1,0 +1,58 @@
+Summary generated Thu Jan  5 01:17:29 AM CET 2023 for
+point-symmetry group hexagonal_6bar, polar tensor of rank 4.
+================================================================================
+Symmetry operations associated with 6 (hexagonal, inversion symmetry) are:
+
+1. 6-FOLD ROTATION SYMMETRY AROUND Z-AXIS WITH INVERSION APPLIED ALONG Z AXIS
+6z (6-fold rotation symmetry around z-axis with inversion applied along z axis),
+described by R(6z) for which det(R(6z)) = -1 (being a improper rotation):
+⎡      √3     ⎤
+⎢1/2   ──   0 ⎥
+⎢      2      ⎥
+⎢             ⎥
+⎢-√3          ⎥
+⎢────  1/2  0 ⎥
+⎢ 2           ⎥
+⎢             ⎥
+⎣ 0     0   -1⎦
+
+Compiling equation system from the 1 symmetries of point-symmetry group 6
+(hexagonal, inversion symmetry).
+Solving system of 80 equations for nonzero elements.
+================================================================================
+POINT SYMMETRY GROUP 6 (HEXAGONAL, INVERSION SYMMETRY)
+
+For the polar (true) tensor of rank 4 (for which there in a completely non-
+symmetrical case would be a maximum of 81 elements) under constraint of point-
+symmetry group 6 (hexagonal, inversion symmetry), there are 73 nonzero elements,
+of which 27 are independent.
+
+The 27 independent and nonzero tensor elements are as follows:
+       1.  xxxx = yyyy
+       2.  xxxy = -yyyx = xyyy + yxyy + yyxy = -yxxx + yxyy + yyxy
+       3.  xxyx = -yyxy
+       4.  xxyy = yyxx = -xyyx - yxyx + yyyy = -yxxy - yxyx + yyyy
+       5.  xyxx = -yxyy
+       6.  xyxy = yxyx
+       7.  xxxz = -xyyz = -yxyz = -yyxz
+       8.  xxyz = -yyyz = xyxz = yxxz
+       9.  xxzx = -xyzy = -yxzy = -yyzx
+      10.  xxzy = -yyzy = xyzx = yxzx
+      11.  xxzz = yyzz
+      12.  xyzz = -yxzz
+      13.  xzxx = -xzyy = -yzxy = -yzyx
+      14.  xzxy = -yzyy = xzyx = yzxx
+      15.  xzxz = yzyz
+      16.  xzyz = -yzxz
+      17.  xzzx = yzzy
+      18.  xzzy = -yzzx
+      19.  zxxx = -zxyy = -zyxy = -zyyx
+      20.  zxxy = -zyyy = zxyx = zyxx
+      21.  zxxz = zyyz
+      22.  zxyz = -zyxz
+      23.  zxzx = zyzy
+      24.  zxzy = -zyzx
+      25.  zzxx = zzyy
+      26.  zzxy = -zzyx
+      27.  zzzz = independent
+================================================================================

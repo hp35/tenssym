@@ -1,0 +1,40 @@
+Summary generated Thu Jan  5 01:17:39 AM CET 2023 for
+point-symmetry group hexagonal_6bar, axial tensor of rank 3.
+================================================================================
+Symmetry operations associated with 6 (hexagonal, inversion symmetry) are:
+
+1. 6-FOLD ROTATION SYMMETRY AROUND Z-AXIS WITH INVERSION APPLIED ALONG Z AXIS
+6z (6-fold rotation symmetry around z-axis with inversion applied along z axis),
+described by R(6z) for which det(R(6z)) = -1 (being a improper rotation):
+⎡      √3     ⎤
+⎢1/2   ──   0 ⎥
+⎢      2      ⎥
+⎢             ⎥
+⎢-√3          ⎥
+⎢────  1/2  0 ⎥
+⎢ 2           ⎥
+⎢             ⎥
+⎣ 0     0   -1⎦
+
+Compiling equation system from the 1 symmetries of point-symmetry group 6
+(hexagonal, inversion symmetry).
+Solving system of 26 equations for nonzero elements.
+================================================================================
+POINT SYMMETRY GROUP 6 (HEXAGONAL, INVERSION SYMMETRY)
+
+For the axial (pseudo) tensor of rank 3 (for which there in a completely non-
+symmetrical case would be a maximum of 27 elements) under constraint of point-
+symmetry group 6 (hexagonal, inversion symmetry), there are 21 nonzero elements,
+of which 9 are independent.
+
+The 9 independent and nonzero tensor elements are as follows:
+       1.  xxx = -xyy = -yxy = -yyx
+       2.  xxy = -yyy = xyx = yxx
+       3.  xxz = yyz
+       4.  xyz = -yxz
+       5.  xzx = yzy
+       6.  xzy = -yzx
+       7.  zxx = zyy
+       8.  zxy = -zyx
+       9.  zzz = independent
+================================================================================

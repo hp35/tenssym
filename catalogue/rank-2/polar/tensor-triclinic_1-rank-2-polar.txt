@@ -1,0 +1,36 @@
+Summary generated Thu Jan  5 01:15:37 AM CET 2023 for
+point-symmetry group triclinic_1, polar tensor of rank 2.
+================================================================================
+Symmetry operations associated with 1 (triclinic, no inversion symmetry) are:
+
+1. IDENTITY OPERATION
+I (identity operation), described by R(I) for which det(R(I)) = 1 (being a
+proper rotation):
+⎡1  0  0⎤
+⎢       ⎥
+⎢0  1  0⎥
+⎢       ⎥
+⎣0  0  1⎦
+
+Compiling equation system from the 1 symmetries of point-symmetry group 1
+(triclinic, no inversion symmetry).
+No linearly independent equations found from system.
+================================================================================
+POINT SYMMETRY GROUP 1 (TRICLINIC, NO INVERSION SYMMETRY)
+
+For the polar (true) tensor of rank 2 (for which there in a completely non-
+symmetrical case would be a maximum of 9 elements) under constraint of point-
+symmetry group 1 (triclinic, no inversion symmetry), there are 9 nonzero
+elements, of which 9 are independent.
+
+The 9 independent and nonzero tensor elements are as follows:
+       1.  xx = independent
+       2.  xy = independent
+       3.  xz = independent
+       4.  yx = independent
+       5.  yy = independent
+       6.  yz = independent
+       7.  zx = independent
+       8.  zy = independent
+       9.  zz = independent
+================================================================================
