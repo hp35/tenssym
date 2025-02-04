@@ -1,4 +1,4 @@
-Summary generated Thu Jan  5 01:14:24 AM CET 2023 for
+Summary generated Tue Feb  4 01:20:42 PM CET 2025 for
 point-symmetry group trigonal_3, axial tensor of rank 3.
 ================================================================================
 Symmetry operations associated with 3 (trigonal, no inversion symmetry) are:

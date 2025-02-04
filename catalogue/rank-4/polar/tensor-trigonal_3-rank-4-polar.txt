@@ -1,4 +1,4 @@
-Summary generated Thu Jan  5 01:14:13 AM CET 2023 for
+Summary generated Tue Feb  4 01:20:37 PM CET 2025 for
 point-symmetry group trigonal_3, polar tensor of rank 4.
 ================================================================================
 Symmetry operations associated with 3 (trigonal, no inversion symmetry) are:
@@ -29,8 +29,8 @@ elements, of which 27 are independent.
 
 The 27 independent and nonzero tensor elements are as follows:
        1.  xxxx = yyyy = xyyx + yxyx + yyxx = yxxy + yxyx + yyxx
-       2.  xxxy = -yyyx
-       3.  xxyx = -yyxy = xyyy + yxyy + yyyx = -yxxx + yxyy + yyyx
+       2.  xxxy = -yyyx = xyyy + yxyy + yyxy = -yxxx + yxyy + yyxy
+       3.  xxyx = -yyxy
        4.  xxyy = yyxx
        5.  xyxx = -yxyy
        6.  xyxy = yxyx

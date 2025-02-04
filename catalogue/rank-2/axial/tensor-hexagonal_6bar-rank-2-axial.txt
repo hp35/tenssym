@@ -1,11 +1,11 @@
-Summary generated Thu Jan  5 01:17:39 AM CET 2023 for
+Summary generated Tue Feb  4 01:22:09 PM CET 2025 for
 point-symmetry group hexagonal_6bar, axial tensor of rank 2.
 ================================================================================
 Symmetry operations associated with 6 (hexagonal, inversion symmetry) are:
 
 1. 6-FOLD ROTATION SYMMETRY AROUND Z-AXIS WITH INVERSION APPLIED ALONG Z AXIS
 6z (6-fold rotation symmetry around z-axis with inversion applied along z axis),
-described by R(6z) for which det(R(6z)) = -1 (being a improper rotation):
+described by R(6z) for which det(R(6z)) = -1 (being an improper rotation):
 ⎡      √3     ⎤
 ⎢1/2   ──   0 ⎥
 ⎢      2      ⎥

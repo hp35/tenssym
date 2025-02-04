@@ -1,4 +1,4 @@
-Summary generated Thu Jan  5 01:15:17 AM CET 2023 for
+Summary generated Tue Feb  4 01:21:05 PM CET 2025 for
 point-symmetry group trigonal_32_2y, axial tensor of rank 3.
 ================================================================================
 Symmetry operations associated with 32 (trigonal, no inversion symmetry, 2-fold

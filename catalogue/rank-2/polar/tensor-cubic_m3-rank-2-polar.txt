@@ -1,4 +1,4 @@
-Summary generated Thu Jan  5 01:16:46 AM CET 2023 for
+Summary generated Tue Feb  4 01:21:45 PM CET 2025 for
 point-symmetry group cubic_m3, polar tensor of rank 2.
 ================================================================================
 Symmetry operations associated with m3 (cubic, inversion symmetry) are:
@@ -23,7 +23,7 @@ which det(R(3xyz)) = 1 (being a proper rotation):
 
 3. IDENTITY OPERATION WITH INVERSION APPLIED ALONG XYZ AXIS
 I (identity operation with inversion applied along xyz axis), described by R(I)
-for which det(R(I)) = -1 (being a improper rotation):
+for which det(R(I)) = -1 (being an improper rotation):
 ⎡-1  0   0 ⎤
 ⎢          ⎥
 ⎢0   -1  0 ⎥

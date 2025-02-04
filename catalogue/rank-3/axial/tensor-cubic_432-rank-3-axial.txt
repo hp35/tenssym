@@ -1,4 +1,4 @@
-Summary generated Thu Jan  5 01:16:36 AM CET 2023 for
+Summary generated Tue Feb  4 01:21:41 PM CET 2025 for
 point-symmetry group cubic_432, axial tensor of rank 3.
 ================================================================================
 Symmetry operations associated with 432 (cubic, no inversion symmetry) are:

@@ -1,11 +1,11 @@
-Summary generated Thu Jan  5 01:13:48 AM CET 2023 for
+Summary generated Tue Feb  4 01:20:26 PM CET 2025 for
 point-symmetry group cubic_4bar3m, axial tensor of rank 3.
 ================================================================================
 Symmetry operations associated with 43m (cubic, inversion symmetry) are:
 
 1. 4-FOLD ROTATION SYMMETRY AROUND Z-AXIS WITH INVERSION APPLIED ALONG Z AXIS
 4z (4-fold rotation symmetry around z-axis with inversion applied along z axis),
-described by R(4z) for which det(R(4z)) = -1 (being a improper rotation):
+described by R(4z) for which det(R(4z)) = -1 (being an improper rotation):
 ⎡0   1  0 ⎤
 ⎢         ⎥
 ⎢-1  0  0 ⎥

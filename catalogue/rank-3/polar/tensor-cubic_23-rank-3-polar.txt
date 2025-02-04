@@ -1,4 +1,4 @@
-Summary generated Thu Jan  5 01:13:56 AM CET 2023 for
+Summary generated Tue Feb  4 01:20:29 PM CET 2025 for
 point-symmetry group cubic_23, polar tensor of rank 3.
 ================================================================================
 Symmetry operations associated with 23 (cubic, no inversion symmetry) are:

@@ -1,4 +1,4 @@
-Summary generated Thu Jan  5 01:17:06 AM CET 2023 for
+Summary generated Tue Feb  4 01:21:54 PM CET 2025 for
 point-symmetry group hexagonal_6, polar tensor of rank 4.
 ================================================================================
 Symmetry operations associated with 6 (hexagonal, no inversion symmetry) are:
@@ -29,11 +29,11 @@ elements, of which 19 are independent.
 
 The 19 independent and nonzero tensor elements are as follows:
        1.  xxxx = yyyy
-       2.  xxxy = -yyyx
-       3.  xxyx = -yyxy = xyyy + yxyy + yyyx = -yxxx + yxyy + yyyx
-       4.  xxyy = yyxx
+       2.  xxxy = -yyyx = xyyy + yxyy + yyxy = -yxxx + yxyy + yyxy
+       3.  xxyx = -yyxy
+       4.  xxyy = yyxx = -xyyx - yxyx + yyyy = -yxxy - yxyx + yyyy
        5.  xyxx = -yxyy
-       6.  xyxy = yxyx = -xyyx - yyxx + yyyy = -yxxy - yyxx + yyyy
+       6.  xyxy = yxyx
        7.  xxzz = yyzz
        8.  xyzz = -yxzz
        9.  xzxz = yzyz

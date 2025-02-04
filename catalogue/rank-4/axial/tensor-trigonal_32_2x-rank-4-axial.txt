@@ -1,4 +1,4 @@
-Summary generated Thu Jan  5 01:14:51 AM CET 2023 for
+Summary generated Tue Feb  4 01:20:54 PM CET 2025 for
 point-symmetry group trigonal_32_2x, axial tensor of rank 4.
 ================================================================================
 Symmetry operations associated with 32 (trigonal, no inversion symmetry, 2-fold
@@ -39,8 +39,8 @@ are 37 nonzero elements, of which 14 are independent.
 
 The 14 independent and nonzero tensor elements are as follows:
        1.  xxxx = yyyy
-       2.  xxyy = yyxx
-       3.  xyxy = yxyx = -xyyx - yyxx + yyyy = -yxxy - yyxx + yyyy
+       2.  xxyy = yyxx = -xyyx - yxyx + yyyy = -yxxy - yxyx + yyyy
+       3.  xyxy = yxyx
        4.  xxyz = -yyyz = xyxz = yxxz
        5.  xxzy = -yyzy = xyzx = yxzx
        6.  xxzz = yyzz

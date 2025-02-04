@@ -1,4 +1,4 @@
-Summary generated Thu Jan  5 01:16:26 AM CET 2023 for
+Summary generated Tue Feb  4 01:21:37 PM CET 2025 for
 point-symmetry group cubic_432, polar tensor of rank 3.
 ================================================================================
 Symmetry operations associated with 432 (cubic, no inversion symmetry) are:

@@ -1,4 +1,4 @@
-Summary generated Thu Jan  5 01:14:06 AM CET 2023 for
+Summary generated Tue Feb  4 01:20:34 PM CET 2025 for
 point-symmetry group cubic_23, axial tensor of rank 5.
 ================================================================================
 Symmetry operations associated with 23 (cubic, no inversion symmetry) are:
