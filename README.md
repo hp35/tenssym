@@ -33,7 +33,7 @@ non-zero tensor elements.
 
 ```bash
 $ cd tenssym
-tenssym$ ./tenssym.sh
+$ ./tenssym.sh
 ```
 
 ## Copyright
