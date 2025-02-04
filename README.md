@@ -27,6 +27,26 @@ References
 
 ## Compiling and running the code
 
+The `tenssym.sh` script has been used to generate the enclosed
+[atlas](<em>atlas</em>) of nonzero tensor elements for the following
+point-symmetry groups:
+
+    "cubic_4bar3m"     - 43m cubic, inversion symmetry
+    "cubic_23"         - 23 cubic, no inversion symmetry
+    "trigonal_3"       - 3 trigonal, no inversion symmetry
+    "trigonal_32_2x"   - 32 trigonal, no inversion symmetry, 2-fold x-symmetry
+    "trigonal_32_2y"   - 32 trigonal, no inversion symmetry, 2-fold y-symmetry
+    "triclinic_1bar"   - 1 triclinic, inversion symmetry for all axes
+    "triclinic_1"      - 1 triclinic, no inversion symmetry
+    "tetragonal_422"   - 422 tetragonal, no inversion symmetry
+    "cubic_m3m"        - m3m cubic, inversion symmetry
+    "cubic_432"        - 432 cubic, no inversion symmetry
+    "cubic_m3"         - m3 cubic, inversion symmetry
+    "hexagonal_6"      - 6 hexagonal, no inversion symmetry
+    "hexagonal_6bar"   - 6 hexagonal, inversion symmetry
+
+## Compiling and running the code
+
 The code can be run from the enclosed script `tenssym.sh`, iterating over a
 set of implemented point-symmetries and generating the entire catalogue of
 non-zero tensor elements.
