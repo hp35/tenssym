@@ -47,7 +47,7 @@ ranks from two to five):
 
 ## Example of output from the `tenssym` program
 
-(From summary: `atlas/rank-3/axial/tensor-hexagonal_6bar-rank-3-axial.txt`):
+(From summary: [atlas/rank-3/axial/tensor-hexagonal_6bar-rank-3-axial.txt](atlas/rank-3/axial/tensor-hexagonal_6bar-rank-3-axial.txt)):
 
 ```text
 Summary generated Tue Feb  4 02:12:53 PM CET 2025 by TensSym for
