@@ -28,7 +28,7 @@ References
 ## Compiling and running the code
 
 The `tenssym.sh` script has been used to generate the enclosed
-[atlas](<em>atlas</em>) of nonzero tensor elements for the following
+[atlas](./atlas/) of nonzero tensor elements for the following
 point-symmetry groups:
 
     "cubic_4bar3m"     - 43m cubic, inversion symmetry
