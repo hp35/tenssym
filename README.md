@@ -25,7 +25,7 @@ References
      ISBN 91-7170-575-9; Available via the National Library of Sweden (Kungl.
      Biblioteket) at http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-2967
 
-## Compiling and running the code
+## Atlas of non-zero polar and axial tensor elements
 
 The `tenssym.sh` script has been used to generate the enclosed [atlas](./atlas/)
 of nonzero tensor elements for the following point-symmetry groups (tensor
@@ -44,6 +44,54 @@ ranks from two to five):
     "cubic_m3"       - m3 cubic, inversion symmetry
     "hexagonal_6"    - 6 hexagonal, no inversion symmetry
     "hexagonal_6bar" - 6 hexagonal, inversion symmetry
+
+## Example of output from the `tenssym` program
+
+(From summary: `atlas/rank-3/axial/tensor-hexagonal_6bar-rank-3-axial.txt`):
+
+```text
+Summary generated Tue Feb  4 02:12:53 PM CET 2025 by TensSym for
+point-symmetry group hexagonal_6bar, axial tensor of rank 3.
+See https://github.com/hp35/tenssym for details.
+================================================================================
+Symmetry operations associated with 6 (hexagonal, inversion symmetry) are:
+
+1. 6-FOLD ROTATION SYMMETRY AROUND Z-AXIS WITH INVERSION APPLIED ALONG Z AXIS
+6z (6-fold rotation symmetry around z-axis with inversion applied along z axis),
+described by R(6z) for which det(R(6z)) = -1 (being an improper rotation):
+⎡      √3     ⎤
+⎢1/2   ──   0 ⎥
+⎢      2      ⎥
+⎢             ⎥
+⎢-√3          ⎥
+⎢────  1/2  0 ⎥
+⎢ 2           ⎥
+⎢             ⎥
+⎣ 0     0   -1⎦
+
+Compiling equation system from the 1 symmetries of point-symmetry group 6
+(hexagonal, inversion symmetry).
+Solving system of 26 equations for nonzero elements.
+================================================================================
+POINT SYMMETRY GROUP 6 (HEXAGONAL, INVERSION SYMMETRY)
+
+For the axial (pseudo) tensor of rank 3 (for which there in a completely non-
+symmetrical case would be a maximum of 27 elements) under constraint of point-
+symmetry group 6 (hexagonal, inversion symmetry), there are 21 nonzero elements,
+of which 9 are independent.
+
+The 9 independent and nonzero tensor elements are as follows:
+       1.  xxx = -xyy = -yxy = -yyx
+       2.  xxy = -yyy = xyx = yxx
+       3.  xxz = yyz
+       4.  xyz = -yxz
+       5.  xzx = yzy
+       6.  xzy = -yzx
+       7.  zxx = zyy
+       8.  zxy = -zyx
+       9.  zzz = independent
+================================================================================
+```
 
 ## Compiling and running the code
 
