@@ -1,5 +1,6 @@
-Summary generated Tue Feb  4 01:20:59 PM CET 2025 for
+Summary generated Tue Feb  4 02:11:41 PM CET 2025 by TensSym for
 point-symmetry group trigonal_32_2y, polar tensor of rank 3.
+See https://github.com/hp35/tenssym for details.
 ================================================================================
 Symmetry operations associated with 32 (trigonal, no inversion symmetry, 2-fold
 y-symmetry) are:

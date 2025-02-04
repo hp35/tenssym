@@ -1,5 +1,6 @@
-Summary generated Tue Feb  4 01:20:54 PM CET 2025 for
+Summary generated Tue Feb  4 02:11:36 PM CET 2025 by TensSym for
 point-symmetry group trigonal_32_2x, axial tensor of rank 4.
+See https://github.com/hp35/tenssym for details.
 ================================================================================
 Symmetry operations associated with 32 (trigonal, no inversion symmetry, 2-fold
 x-symmetry) are:
@@ -38,8 +39,8 @@ symmetry group 32 (trigonal, no inversion symmetry, 2-fold x-symmetry), there
 are 37 nonzero elements, of which 14 are independent.
 
 The 14 independent and nonzero tensor elements are as follows:
-       1.  xxxx = yyyy
-       2.  xxyy = yyxx = -xyyx - yxyx + yyyy = -yxxy - yxyx + yyyy
+       1.  xxxx = yyyy = xyyx + yxyx + yyxx = yxxy + yxyx + yyxx
+       2.  xxyy = yyxx
        3.  xyxy = yxyx
        4.  xxyz = -yyyz = xyxz = yxxz
        5.  xxzy = -yyzy = xyzx = yxzx

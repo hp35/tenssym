@@ -1,5 +1,6 @@
-Summary generated Tue Feb  4 01:21:46 PM CET 2025 for
+Summary generated Tue Feb  4 02:12:30 PM CET 2025 by TensSym for
 point-symmetry group cubic_m3, polar tensor of rank 4.
+See https://github.com/hp35/tenssym for details.
 ================================================================================
 Symmetry operations associated with m3 (cubic, inversion symmetry) are:
 

@@ -1,5 +1,6 @@
-Summary generated Tue Feb  4 01:22:04 PM CET 2025 for
+Summary generated Tue Feb  4 02:12:48 PM CET 2025 by TensSym for
 point-symmetry group hexagonal_6bar, polar tensor of rank 4.
+See https://github.com/hp35/tenssym for details.
 ================================================================================
 Symmetry operations associated with 6 (hexagonal, inversion symmetry) are:
 
@@ -28,10 +29,10 @@ symmetry group 6 (hexagonal, inversion symmetry), there are 73 nonzero elements,
 of which 27 are independent.
 
 The 27 independent and nonzero tensor elements are as follows:
-       1.  xxxx = yyyy
+       1.  xxxx = yyyy = xyyx + yxyx + yyxx = yxxy + yxyx + yyxx
        2.  xxxy = -yyyx
        3.  xxyx = -yyxy
-       4.  xxyy = yyxx = -xyyx - yxyx + yyyy = -yxxy - yxyx + yyyy
+       4.  xxyy = yyxx
        5.  xyxx = -yxyy = xyyy + yyxy + yyyx = -yxxx + yyxy + yyyx
        6.  xyxy = yxyx
        7.  xxxz = -xyyz = -yxyz = -yyxz

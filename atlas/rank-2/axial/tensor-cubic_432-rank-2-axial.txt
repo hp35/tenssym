@@ -1,5 +1,6 @@
-Summary generated Tue Feb  4 01:21:41 PM CET 2025 for
+Summary generated Tue Feb  4 02:12:24 PM CET 2025 by TensSym for
 point-symmetry group cubic_432, axial tensor of rank 2.
+See https://github.com/hp35/tenssym for details.
 ================================================================================
 Symmetry operations associated with 432 (cubic, no inversion symmetry) are:
 

@@ -1,5 +1,6 @@
-Summary generated Tue Feb  4 01:21:59 PM CET 2025 for
+Summary generated Tue Feb  4 02:12:43 PM CET 2025 by TensSym for
 point-symmetry group hexagonal_6, axial tensor of rank 4.
+See https://github.com/hp35/tenssym for details.
 ================================================================================
 Symmetry operations associated with 6 (hexagonal, no inversion symmetry) are:
 
@@ -30,9 +31,9 @@ elements, of which 19 are independent.
 The 19 independent and nonzero tensor elements are as follows:
        1.  xxxx = yyyy
        2.  xxxy = -yyyx
-       3.  xxyx = -yyxy
+       3.  xxyx = -yyxy = xyyy + yxyy + yyyx = -yxxx + yxyy + yyyx
        4.  xxyy = yyxx
-       5.  xyxx = -yxyy = xyyy + yyxy + yyyx = -yxxx + yyxy + yyyx
+       5.  xyxx = -yxyy
        6.  xyxy = yxyx = -xyyx - yyxx + yyyy = -yxxy - yyxx + yyyy
        7.  xxzz = yyzz
        8.  xyzz = -yxzz

@@ -1,5 +1,6 @@
-Summary generated Tue Feb  4 01:20:22 PM CET 2025 for
+Summary generated Tue Feb  4 02:11:04 PM CET 2025 by TensSym for
 point-symmetry group cubic_4bar3m, polar tensor of rank 4.
+See https://github.com/hp35/tenssym for details.
 ================================================================================
 Symmetry operations associated with 43m (cubic, inversion symmetry) are:
 

@@ -1,5 +1,6 @@
-Summary generated Tue Feb  4 01:21:17 PM CET 2025 for
+Summary generated Tue Feb  4 02:12:00 PM CET 2025 by TensSym for
 point-symmetry group triclinic_1, axial tensor of rank 3.
+See https://github.com/hp35/tenssym for details.
 ================================================================================
 Symmetry operations associated with 1 (triclinic, no inversion symmetry) are:
 

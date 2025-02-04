@@ -1,5 +1,6 @@
-Summary generated Tue Feb  4 01:21:55 PM CET 2025 for
+Summary generated Tue Feb  4 02:12:39 PM CET 2025 by TensSym for
 point-symmetry group hexagonal_6, polar tensor of rank 5.
+See https://github.com/hp35/tenssym for details.
 ================================================================================
 Symmetry operations associated with 6 (hexagonal, no inversion symmetry) are:
 
@@ -30,9 +31,9 @@ elements, of which 51 are independent.
 The 51 independent and nonzero tensor elements are as follows:
        1.  xxxxz = yyyyz = xyyxz + yxyxz + yyxxz = yxxyz + yxyxz + yyxxz
        2.  xxxyz = -yyyxz
-       3.  xxyxz = -yyxyz
+       3.  xxyxz = -yyxyz = xyyyz + yxyyz + yyyxz = -yxxxz + yxyyz + yyyxz
        4.  xxyyz = yyxxz
-       5.  xyxxz = -yxyyz = xyyyz + yyxyz + yyyxz = -yxxxz + yyxyz + yyyxz
+       5.  xyxxz = -yxyyz
        6.  xyxyz = yxyxz
        7.  xxxzx = yyyzy
        8.  xxxzy = -yyyzx
@@ -41,19 +42,19 @@ The 51 independent and nonzero tensor elements are as follows:
       11.  xyxzx = -yxyzy
       12.  xyxzy = yxyzx = -xyyzx - yyxzx + yyyzy = -yxxzy - yyxzx + yyyzy
       13.  xxzxx = yyzyy = xyzyx + yxzyx + yyzxx = yxzxy + yxzyx + yyzxx
-      14.  xxzxy = -yyzyx = xyzyy + yxzyy + yyzxy = -yxzxx + yxzyy + yyzxy
+      14.  xxzxy = -yyzyx
       15.  xxzyx = -yyzxy
       16.  xxzyy = yyzxx
-      17.  xyzxx = -yxzyy
+      17.  xyzxx = -yxzyy = xyzyy + yyzxy + yyzyx = -yxzxx + yyzxy + yyzyx
       18.  xyzxy = yxzyx
       19.  xxzzz = yyzzz
       20.  xyzzz = -yxzzz
-      21.  xzxxx = yzyyy
+      21.  xzxxx = yzyyy = xzyyx + yzxyx + yzyxx = yzxxy + yzxyx + yzyxx
       22.  xzxxy = -yzyyx
       23.  xzxyx = -yzyxy = xzyyy + yzxyy + yzyyx = -yzxxx + yzxyy + yzyyx
       24.  xzxyy = yzyxx
       25.  xzyxx = -yzxyy
-      26.  xzyxy = yzxyx = -yzxxy - yzyxx + yzyyy = -xzyyx - yzyxx + yzyyy
+      26.  xzyxy = yzxyx
       27.  xzxzz = yzyzz
       28.  xzyzz = -yzxzz
       29.  xzzxz = yzzyz

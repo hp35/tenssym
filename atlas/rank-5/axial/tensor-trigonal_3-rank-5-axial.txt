@@ -1,5 +1,6 @@
-Summary generated Tue Feb  4 01:20:43 PM CET 2025 for
+Summary generated Tue Feb  4 02:11:26 PM CET 2025 by TensSym for
 point-symmetry group trigonal_3, axial tensor of rank 5.
+See https://github.com/hp35/tenssym for details.
 ================================================================================
 Symmetry operations associated with 3 (trigonal, no inversion symmetry) are:
 
@@ -28,39 +29,39 @@ symmetry group 3 (trigonal, no inversion symmetry), there are 233 nonzero
 elements, of which 74 are independent.
 
 The 74 independent and nonzero tensor elements are as follows:
-       1.  xxxxx = xxxyy - yyyxy - yyyyx = xxyxy - yyxyy - yyyyx = xxyyx - yyxyy - yyyxy = -xyyyy + yxxxy - yyyyx = -xyyyy + yxxyx - yyyxy = -xyyyy + yxyxx - yyxyy = -xyyyy - yxyyy + yyxxx = -yxxxy/2 - yxyyy/2 - yyxyy/2 - yyyxy/2 = -yxxyx/2 - yxyyy/2 - yyxyy/2 - yyyyx/2 = -yxyxx/2 - yxyyy/2 - yyyxy/2 - yyyyx/2 = -yyxxx/2 - yyxyy/2 - yyyxy/2 - yyyyx/2 = xxxyy - 2*xyyyy + 3*yxxxy + yxyyy + yyxyy - 3*yyyyx = xxxyy - 2*xyyyy + 3*yxxyx + yxyyy + yyxyy - 3*yyyxy = xxyyx - 2*xyyyy + 3*yxxyx + yxyyy - 3*yyyxy + yyyyx = xxyyx - 2*xyyyy + 3*yxyxx + yxyyy - 3*yyxyy + yyyyx = xxxyy - 2*xyyyy + 3*yxyxx + yxyyy - 2*yyxyy = xxxyy - 2*xyyyy - 2*yxyyy + 3*yyxxx + yyxyy = xxyyx - 2*xyyyy + 3*yxxxy + yxyyy - 2*yyyyx = xxyyx - 2*xyyyy - 2*yxyyy + 3*yyxxx + yyyyx
-       2.  xxxxy = -xxyyy - yyxxy - yyyyy = -xyxyy - yxyxy - yyyyy = xyyxy + yxyyx + yyxyx = xyyyx + yxxyy + yyyxx = xyyyx + yxyyx + yyxxy = xyyyx - yxxxx - yyyyy = xxyxx - yyxxy + yyyxx = -xyxyy - yxxyy + yyxyx - yyyxx - yyyyy = -xyxyy - yxyyx - yyxxy + yyxyx - yyyyy = xyyxy + yxxyy - yxyxy + yxyyx + yyyxx = xyyxy + yxxyy - yyxxy + yyxyx + yyyxx = xyyxy - yxxxx - yxyxy + yxyyx - yyyyy = xyyxy - yxxxx - yyxxy + yyxyx - yyyyy = -xyxyy - yxxyy - yxyxy + yxyyx + yyxxy - yyyxx - yyyyy = -xxxyx + yyyxx - yyyyy = -xyxxx + yxyyx - yyyyy = -xyxyy + yxxxx + yyxyx = -xyxxx + yxxyy - yyxxy + yyyxx - yyyyy = -xyxyy + yxxxx - yxyxy + yxyyx + yyxxy = xxyxx + 2*xyyyx + yxyxy + yxyyx + yyxxy + yyyyy = xxyxx - 2*xyxyy - yxyxy - yxyyx - yyxxy - yyyyy = -xyxxx - yxxxx - yyxxy - 2*yyyyy = xxyxx - 2*xyxxx + yxyxy + yxyyx - yyxxy - yyyyy = xyyxy - yxyxy + 2*yxyyx + yyxxy = xxyxx + 2*xyyxy + 2*yxyyx + yyxyx + yyyyy = -xxxyx - 2*xyxyy - yxyxy - yxyyx - 2*yyyyy = xxyxx + 2*xyyxy - 2*yxxxx - yxyxy + yxyyx - yyxxy - yyyyy = xxyxx + 2*xyyyx - 2*yxxxx + yxyxy - yxyyx - yyxxy - yyyyy = xxyxx - 2*xyxyy + 2*yxxxx - yxyxy + yxyyx + yyxxy + yyyyy = xxyxx + 2*xyyxy - yxyxy + 3*yxyyx + yyxxy + yyyyy = xxyxx + 2*xyyxy + 2*yxxyy - yxyxy + yxyyx - yyxxy + 2*yyyxx + yyyyy = xxyxx + 2*xyyyx + 2*yxxyy + yxyxy - yxyyx - yyxxy + 2*yyyxx + yyyyy = xxyxx - 2*xyxyy - 2*yxxyy - yxyxy + yxyyx + yyxxy - 2*yyyxx - yyyyy = xxyxx + 2*xyyyx - 2*yxxxx - yyxyx - yyyyy = xxyxx - 2*xyxxx + 2*yxyyx - yyxyx - yyyyy = xxyxx - 2*xyxyy + 2*yxxxx + yyxyx + yyyyy = xxyxx + 2*xyyyx + 2*yxxyy - yyxyx + 2*yyyxx + yyyyy = xxyxx + 2*xyyyx + 2*yxyyx + 2*yyxxy - yyxyx + yyyyy = xxyxx - 2*xyxyy - 2*yxxyy + yyxyx - 2*yyyxx - yyyyy = xxyxx - 2*xyxyy - 2*yxyyx - 2*yyxxy + yyxyx - yyyyy = -xxxyx + 2*xyyxy + 2*yxyyx + yyxxy + yyxyx = -xxxyx + 2*xyyyx + yxyxy + yxyyx + 2*yyxxy = -xxxyx - 2*xyxxx - 2*yxxxx - yyxxy - yyxyx - 4*yyyyy = -xxxyx - 2*xyxyy - 2*yxyyx - yyxxy + yyxyx - 2*yyyyy = xxyxx + 2*xyyxy + 2*yxxyy - 2*yyxxy + yyxyx + 2*yyyxx + yyyyy = -xxxyx - 2*xyxyy + 2*yxxxx + yyxxy + yyxyx = -xxxyx - 2*xyxxx + yxyxy + yxyyx - 2*yyyyy = xxyxx + 2*xyyxy - 2*yxxxx - 2*yyxxy + yyxyx - yyyyy = xxyxx - 2*xyxxx + 2*yxxyy - 2*yyxxy - yyxyx + 2*yyyxx - yyyyy = xxyxx - 2*xyxxx - 2*yxxxx - 2*yyxxy - yyxyx - 3*yyyyy = -xxxyx + 2*xyyxy + 2*yxxyy - yxyxy + yxyyx + 2*yyyxx = -xxxyx + 2*xyyxy + 2*yxxyy - yyxxy + yyxyx + 2*yyyxx = -xxxyx + 2*xyyxy - 2*yxxxx - yxyxy + yxyyx - 2*yyyyy = -xxxyx + 2*xyyxy - 2*yxxxx - yyxxy + yyxyx - 2*yyyyy = -xxxyx + 2*xyyyx + 2*yxxyy + yxyxy - yxyyx + 2*yyyxx = -xxxyx + 2*xyyyx + 2*yxxyy + yyxxy - yyxyx + 2*yyyxx = -xxxyx + 2*xyyyx - 2*yxxxx + yxyxy - yxyyx - 2*yyyyy = -xxxyx + 2*xyyyx - 2*yxxxx + yyxxy - yyxyx - 2*yyyyy = -xxxyx - 2*xyxxx + 2*yxyyx + yyxxy - yyxyx - 2*yyyyy = -xxxyx - 2*xyxyy - 2*yxxyy + yyxxy + yyxyx - 2*yyyxx - 2*yyyyy = -xxxyx - 2*xyxyy + 2*yxxxx - yxyxy + yxyyx + 2*yyxxy = -xxxyx - 2*xyxyy - 2*yxxyy - yxyxy + yxyyx + 2*yyxxy - 2*yyyxx - 2*yyyyy = -xxxyx - 2*xyxxx + 2*yxxyy - yyxxy - yyxyx + 2*yyyxx - 2*yyyyy = xxyxx - 2*xyxxx + 2*yxxyy + yxyxy - yxyyx - 3*yyxxy + 2*yyyxx - yyyyy = xxyxx - 2*xyxxx - 2*yxxxx + yxyxy - yxyyx - 3*yyxxy - 3*yyyyy = -xxxyx - 2*xyxxx - 2*yxxxx + yxyxy - yxyyx - 2*yyxxy - 4*yyyyy = -xxxyx - 2*xyxxx + 2*yxxyy + yxyxy - yxyyx - 2*yyxxy + 2*yyyxx - 2*yyyyy = -yxyxy/2 + yxyyx/2 + yyyxx/2 - yyyyy/2 = -yyxxy/2 + yyxyx/2 + yyyxx/2 - yyyyy/2 = -xxxyx + 2*xyyxy - yxyxy + 3*yxyyx + 2*yyxxy = -xxxyx + 2*xyyyx + 2*yxyyx + 3*yyxxy - yyxyx
-       3.  xyxxy = xyxyx - yyyxy + yyyyx = xyyxx - yyxyy + yyyyx = yxyyy - yyxxx/2 - yyxyy/2 - yyyxy/2 + yyyyx/2
-       4.  xxxxz = yyyyz
-       5.  xxxyz = -yyyxz = xyyyz + yxyyz + yyxyz = -yxxxz + yxyyz + yyxyz
-       6.  xxyxz = -yyxyz
+       1.  xxxxx = xxxyy - yyyxy - yyyyx = xyxxy - yxyyy - yyyyx = xyxyx - yxyyy - yyyxy = -xxyxy - yyxxx - yyyxy = -xxyyx - yyxxx - yyyyx = -xyyxx - yxxxy - yyyxy = -xyyxx - yxxyx - yyyyx = xyxxy + yxxyx - yyxxx - yyyxy - yyyyx = xyxyx + yxxxy - yyxxx - yyyxy - yyyyx = -xyyyy + yxxxy - yyyyx = -xyyyy + yxxyx - yyyxy = -xyyyy - yxyyy + yyxxx = -xyyxx + yxyyy - yyxxx - yyyxy - yyyyx = xyxxy + yxxxy - yyxxx - 2*yyyyx = xyxyx + yxxyx - yyxxx - 2*yyyxy = -yxyxx/2 - yxyyy/2 - yyyxy/2 - yyyyx/2 = -yyxxx/2 - yyxyy/2 - yyyxy/2 - yyyyx/2
+       2.  xxxxy = xxyyy + yyxyx + yyyxx = xxxyx - yxyxy + yxyyx = xxxyx - yyxxy + yyxyx = xxyxx - yxxyy + yxyyx = xxyxx - yyxxy + yyyxx = xxxyx - yxxyy + yxyyx + yyxyx - yyyxx = xxyxx - yxyxy + yxyyx - yyxyx + yyyxx = yxxxx/2 + yxyyx/2 + yyxyx/2 + yyyxx/2 = -yxxyy/2 + yxyyx/2 + yyxyx/2 - yyyyy/2 = -yxyxy/2 + yxyyx/2 + yyyxx/2 - yyyyy/2 = -yyxxy/2 + yyxyx/2 + yyyxx/2 - yyyyy/2
+       3.  xyxxx = -xyxyy - yyyxx - yyyyy = -xyyxy - yyxyx - yyyyy = -xyyyx - yyxxy - yyyyy = yxyyx + yyxxy/2 - yyxyx/2 - yyyxx/2 - yyyyy/2
+       4.  xxxxz = yyyyz = xyyxz + yxyxz + yyxxz = yxxyz + yxyxz + yyxxz
+       5.  xxxyz = -yyyxz
+       6.  xxyxz = -yyxyz = xyyyz + yxyyz + yyyxz = -yxxxz + yxyyz + yyyxz
        7.  xxyyz = yyxxz
        8.  xyxxz = -yxyyz
-       9.  xyxyz = yxyxz = -xyyxz - yyxxz + yyyyz = -yxxyz - yyxxz + yyyyz
-      10.  xxxzx = yyyzy
+       9.  xyxyz = yxyxz
+      10.  xxxzx = yyyzy = xyyzx + yxyzx + yyxzx = yxxzy + yxyzx + yyxzx
       11.  xxxzy = -yyyzx
       12.  xxyzx = -yyxzy
-      13.  xxyzy = yyxzx = -xyyzx - yxyzx + yyyzy = -yxxzy - yxyzx + yyyzy
+      13.  xxyzy = yyxzx
       14.  xyxzx = -yxyzy = xyyzy + yyxzy + yyyzx = -yxxzx + yyxzy + yyyzx
       15.  xyxzy = yxyzx
       16.  xxxzz = -xyyzz = -yxyzz = -yyxzz
       17.  xxyzz = -yyyzz = xyxzz = yxxzz
       18.  xxzxx = yyzyy
-      19.  xxzxy = -yyzyx
+      19.  xxzxy = -yyzyx = xyzyy + yxzyy + yyzxy = -yxzxx + yxzyy + yyzxy
       20.  xxzyx = -yyzxy
-      21.  xxzyy = yyzxx
-      22.  xyzxx = -yxzyy = xyzyy + yyzxy + yyzyx = -yxzxx + yyzxy + yyzyx
-      23.  xyzxy = yxzyx = -xyzyx - yyzxx + yyzyy = -yxzxy - yyzxx + yyzyy
+      21.  xxzyy = yyzxx = -xyzyx - yxzyx + yyzyy = -yxzxy - yxzyx + yyzyy
+      22.  xyzxx = -yxzyy
+      23.  xyzxy = yxzyx
       24.  xxzxz = -yyzxz = -xyzyz = -yxzyz
       25.  xxzyz = -yyzyz = xyzxz = yxzxz
       26.  xxzzx = -yyzzx = -xyzzy = -yxzzy
       27.  xxzzy = -yyzzy = xyzzx = yxzzx
       28.  xxzzz = yyzzz
       29.  xyzzz = -yxzzz
-      30.  xzxxx = yzyyy = xzyyx + yzxyx + yzyxx = yzxxy + yzxyx + yzyxx
-      31.  xzxxy = -yzyyx = xzyyy + yzxyy + yzyxy = -yzxxx + yzxyy + yzyxy
-      32.  xzxyx = -yzyxy
-      33.  xzxyy = yzyxx
+      30.  xzxxx = yzyyy
+      31.  xzxxy = -yzyyx
+      32.  xzxyx = -yzyxy = xzyyy + yzxyy + yzyyx = -yzxxx + yzxyy + yzyyx
+      33.  xzxyy = yzyxx = -yzxxy - yzxyx + yzyyy = -xzyyx - yzxyx + yzyyy
       34.  xzyxx = -yzxyy
       35.  xzyxy = yzxyx
       36.  xzxxz = -yzxyz = -yzyxz = -xzyyz
@@ -75,12 +76,12 @@ The 74 independent and nonzero tensor elements are as follows:
       45.  xzzyz = -yzzxz
       46.  xzzzx = yzzzy
       47.  xzzzy = -yzzzx
-      48.  zxxxx = zyyyy = zxyyx + zyxyx + zyyxx = zyxxy + zyxyx + zyyxx
-      49.  zxxxy = -zyyyx = zxyyy + zyxyy + zyyxy = -zyxxx + zyxyy + zyyxy
-      50.  zxxyx = -zyyxy
+      48.  zxxxx = zyyyy
+      49.  zxxxy = -zyyyx
+      50.  zxxyx = -zyyxy = zxyyy + zyxyy + zyyyx = -zyxxx + zyxyy + zyyyx
       51.  zxxyy = zyyxx
       52.  zxyxx = -zyxyy
-      53.  zxyxy = zyxyx
+      53.  zxyxy = zyxyx = -zxyyx - zyyxx + zyyyy = -zyxxy - zyyxx + zyyyy
       54.  zxxxz = -zyxyz = -zyyxz = -zxyyz
       55.  zxxyz = -zyyyz = zxyxz = zyxxz
       56.  zxxzx = -zyxzy = -zyyzx = -zxyzy

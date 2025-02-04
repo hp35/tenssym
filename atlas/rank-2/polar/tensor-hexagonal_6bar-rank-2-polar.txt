@@ -1,5 +1,6 @@
-Summary generated Tue Feb  4 01:22:03 PM CET 2025 for
+Summary generated Tue Feb  4 02:12:47 PM CET 2025 by TensSym for
 point-symmetry group hexagonal_6bar, polar tensor of rank 2.
+See https://github.com/hp35/tenssym for details.
 ================================================================================
 Symmetry operations associated with 6 (hexagonal, inversion symmetry) are:
 
