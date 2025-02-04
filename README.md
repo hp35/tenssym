@@ -32,7 +32,8 @@ set of implemented point-symmetries and generating the entire catalogue of
 non-zero tensor elements.
 
 ```bash
-$ cd tenssym; ./tenssym.sh
+$ cd tenssym
+tenssym$ ./tenssym.sh
 ```
 
 ## Copyright
