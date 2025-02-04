@@ -27,7 +27,10 @@ References
 
 ## Compiling and running the code
 
-The code can be run from the enclosed script `tenssym.sh`, iterating over a set of implemented point-symmetries and generating the entire catalogue of non-zero tensor elements.
+The code can be run from the enclosed script `tenssym.sh`, iterating over a
+set of implemented point-symmetries and generating the entire catalogue of
+non-zero tensor elements.
+
     ```bash
     $ cd tenssym; ./tenssym.sh
     ```
