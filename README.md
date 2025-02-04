@@ -31,9 +31,9 @@ The code can be run from the enclosed script `tenssym.sh`, iterating over a
 set of implemented point-symmetries and generating the entire catalogue of
 non-zero tensor elements.
 
-    ```bash
-    $ cd tenssym; ./tenssym.sh
-    ```
+```bash
+$ cd tenssym; ./tenssym.sh
+```
 
 ## Copyright
 Copyright (C) 2023, Fredrik Jonsson, under GPL 3.0. See enclosed LICENSE.
