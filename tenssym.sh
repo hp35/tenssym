@@ -7,7 +7,7 @@
 # Copyright (C) 2023, Fredrik Jonsson. Non-commercial copying welcome.
 #
 PYTHON="python3"
-catdir="catalogue"    # The catalogue of tensor elements to be generated
+catdir="atlas"        # The catalogue of tensor elements to be generated
 
 #
 # Complete listing of the crystallographic point-symmetry groups
@@ -51,9 +51,10 @@ for i in "${pointSymmetryGroups[@]}"; do
 	    directory="$catdir/rank-$k/$j"
 	    file="$directory/tensor-$i-rank-$k-$j.txt"
 	    rm -Rf $file
-	    echo "Summary $file" |tee $file
-	    echo "Summary generated $(date) for" |tee $file
-            echo "point-symmetry group $i, $j tensor of rank $k." |tee -a $file
+	    echo "Summary $file"|tee $file
+	    echo "Summary generated $(date) by TensSym for"|tee $file
+            echo "point-symmetry group $i, $j tensor of rank $k."|tee -a $file
+            echo "See https://github.com/hp35/tenssym for details."|tee -a $file
 	    $PYTHON tenssym.py --symmetry $i --type $j --rank $k |tee -a $file
         done
     done
