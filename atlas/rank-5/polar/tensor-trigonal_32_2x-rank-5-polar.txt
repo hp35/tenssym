@@ -1,4 +1,4 @@
-Summary generated Tue Feb  4 02:11:31 PM CET 2025 by TensSym for
+Summary generated Tue Jul 22 05:50:32 PM CEST 2025 by TensSym for
 point-symmetry group trigonal_32_2x, polar tensor of rank 5.
 See https://github.com/hp35/tenssym for details.
 ================================================================================
@@ -36,44 +36,43 @@ POINT SYMMETRY GROUP 32 (TRIGONAL, NO INVERSION SYMMETRY, 2-FOLD X-SYMMETRY)
 For the polar (true) tensor of rank 5 (for which there in a completely non-
 symmetrical case would be a maximum of 243 elements) under constraint of point-
 symmetry group 32 (trigonal, no inversion symmetry, 2-fold x-symmetry), there
-are 116 nonzero elements, of which 37 are independent.
+are 116 nonzero elements, of which 36 are independent.
 
-The 37 independent and nonzero tensor elements are as follows:
-       1.  xxxxx = xxxyy - yyyxy - yyyyx = -xxyxy - yyxxx - yyyxy = -xxyyx - yyxxx - yyyyx = -yyxxx/2 - yyxyy/2 - yyyxy/2 - yyyyx/2
-       2.  xyxxy = xyxyx - yyyxy + yyyyx = xyyxx - yyxyy + yyyyx = -xyyyy + yyxxx + yyyyx = yxyyy - yyxxx/2 - yyxyy/2 - yyyxy/2 + yyyyx/2 = -yxxyx + yyxxx/2 - yyxyy/2 + yyyxy/2 + yyyyx/2 = -yxyxx + yyxxx/2 + yyxyy/2 - yyyxy/2 + yyyyx/2 = -yxxxy + yyxxx/2 - yyxyy/2 - yyyxy/2 + 3*yyyyx/2
-       3.  xxxyz = -yyyxz
-       4.  xxyxz = -yyxyz
-       5.  xyxxz = -yxyyz = xyyyz + yyxyz + yyyxz = -yxxxz + yyxyz + yyyxz
-       6.  xxxzy = -yyyzx
-       7.  xxyzx = -yyxzy = xyyzy + yxyzy + yyyzx = -yxxzx + yxyzy + yyyzx
-       8.  xyxzx = -yxyzy
-       9.  xxxzz = -xyyzz = -yxyzz = -yyxzz
-      10.  xxzxy = -yyzyx
-      11.  xxzyx = -yyzxy
-      12.  xyzxx = -yxzyy = xyzyy + yyzxy + yyzyx = -yxzxx + yyzxy + yyzyx
-      13.  xxzxz = -yyzxz = -xyzyz = -yxzyz
-      14.  xxzzx = -yyzzx = -xyzzy = -yxzzy
-      15.  xyzzz = -yxzzz
-      16.  xzxxy = -yzyyx
-      17.  xzxyx = -yzyxy = xzyyy + yzxyy + yzyyx = -yzxxx + yzxyy + yzyyx
-      18.  xzyxx = -yzxyy
-      19.  xzxxz = -yzxyz = -yzyxz = -xzyyz
-      20.  xzxzx = -yzxzy = -yzyzx = -xzyzy
-      21.  xzyzz = -yzxzz
-      22.  xzzxx = -yzzxy = -yzzyx = -xzzyy
-      23.  xzzyz = -yzzxz
-      24.  xzzzy = -yzzzx
-      25.  zxxxy = -zyyyx
-      26.  zxxyx = -zyyxy = zxyyy + zyxyy + zyyyx = -zyxxx + zyxyy + zyyyx
-      27.  zxyxx = -zyxyy
-      28.  zxxxz = -zyxyz = -zyyxz = -zxyyz
-      29.  zxxzx = -zyxzy = -zyyzx = -zxyzy
-      30.  zxyzz = -zyxzz
-      31.  zxzxx = -zyzxy = -zyzyx = -zxzyy
-      32.  zxzyz = -zyzxz
-      33.  zxzzy = -zyzzx
-      34.  zzxxx = -zzyxy = -zzyyx = -zzxyy
-      35.  zzxyz = -zzyxz
-      36.  zzxzy = -zzyzx
-      37.  zzzxy = -zzzyx
+The 36 independent and nonzero tensor elements are as follows:
+       1.  xxxxx = xyxxy - yxyyy - yyyyx = xyxyx - yxyyy - yyyxy = -xxxyy - yxyxx - yxyyy = -xxxyy - yyxxx - yyxyy = -xxyxy - yxxyx - yxyyy = -xxyxy - yyxxx - yyyxy = -xxyyx - yxxxy - yxyyy = -xxyyx - yyxxx - yyyyx = -xyyxx - yxxxy - yyyxy = -xyyxx - yxxyx - yyyyx = -xyyyy - yxyyy + yyxxx = -xyyxx + yxyyy - yyxxx - yyyxy - yyyyx = -xyyxx - yxxxy - yxxyx - yxyyy + yyxxx = -xxxyy - 2*xyyxx - yxxxy - yxxyx = -xxxyy - 2*xxyxy - yxxyx - yxyyy - yyxxx + yyyyx = -xxxyy - 2*xxyyx - yxxxy - yxyyy - yyxxx + yyyxy = -xxxyy - 2*xyyxx - yxxxy + yxyyy - yyxxx - yyyxy = -xxxyy - 2*xyyxx - yxxyx + yxyyy - yyxxx - yyyyx = -xxxyy - 2*xyyyy + yxxxy - yxyyy + yyxxx + yyyxy = -xxxyy - 2*xyyyy + yxxyx - yxyyy + yyxxx + yyyyx = -xxxyy + 2*xyxxy + yxxyx - yxyyy - yyxxx - yyyyx = -xxxyy + 2*xyxyx + yxxxy - yxyyy - yyxxx - yyyxy = xyxxy - yxxxy - 2*yxyyy + yyxxx = xyxyx - yxxyx - 2*yxyyy + yyxxx = -xxxyy - 2*xyyyy + yxxxy + yxxyx = -xxxyy - 2*xxyxy + yxxxy - yxxyx - 2*yyxxx = -xxxyy - 2*xxyyx - yxxxy + yxxyx - 2*yyxxx = -xxxyy - 2*xxyxy - 2*yyxxx - yyyxy + yyyyx = -xxxyy - 2*xxyyx - 2*yyxxx + yyyxy - yyyyx = -xxxyy + 2*xyxxy - 2*yxyyy + yyyxy - yyyyx = -xxxyy + 2*xyxyx - 2*yxyyy - yyyxy + yyyyx = -xxxyy - 2*xyyxx + 2*yxyyy - 2*yyxxx - yyyxy - yyyyx = -xxxyy - 2*xxyxy + yxxxy + yxyyy - 3*yyxxx - yyyxy = -xxxyy - 2*xxyyx + yxxyx + yxyyy - 3*yyxxx - yyyyx = -xxxyy - 2*xyyyy - 2*yxyyy + 2*yyxxx + yyyxy + yyyyx = -xxxyy + 2*xyxxy - yxxxy + yxxyx - 2*yxyyy = -xxxyy + 2*xyxyx + yxxxy - yxxyx - 2*yxyyy = -yxxxy/2 - yxyyy/2 - yyxyy/2 - yyyxy/2 = -yxxyx/2 - yxyyy/2 - yyxyy/2 - yyyyx/2 = -yxyxx/2 - yxyyy/2 - yyyxy/2 - yyyyx/2 = -yyxxx/2 - yyxyy/2 - yyyxy/2 - yyyyx/2 = -xxxyy + 2*xyxxy - yxxxy - 3*yxyyy + yyxxx + yyyxy = -xxxyy + 2*xyxyx - yxxyx - 3*yxyyy + yyxxx + yyyyx = -yxxxy/2 - yxxyx/2 - yxyyy + yyxxx/2 - yyxyy/2 = -yxxxy/2 - yxyxx/2 - yxyyy + yyxxx/2 - yyyxy/2 = -yxxyx/2 - yxyxx/2 - yxyyy + yyxxx/2 - yyyyx/2 = -yxxxy/2 - yxxyx/2 - yxyxx/2 - 3*yxyyy/2 + yyxxx
+       2.  xxxyz = -yyyxz = xyyyz + yxyyz + yyxyz = -yxxxz + yxyyz + yyxyz
+       3.  xxyxz = -yyxyz
+       4.  xyxxz = -yxyyz
+       5.  xxxzy = -yyyzx
+       6.  xxyzx = -yyxzy = xyyzy + yxyzy + yyyzx = -yxxzx + yxyzy + yyyzx
+       7.  xyxzx = -yxyzy
+       8.  xxxzz = -xyyzz = -yxyzz = -yyxzz
+       9.  xxzxy = -yyzyx
+      10.  xxzyx = -yyzxy = xyzyy + yxzyy + yyzyx = -yxzxx + yxzyy + yyzyx
+      11.  xyzxx = -yxzyy
+      12.  xxzxz = -yyzxz = -xyzyz = -yxzyz
+      13.  xxzzx = -yyzzx = -xyzzy = -yxzzy
+      14.  xyzzz = -yxzzz
+      15.  xzxxy = -yzyyx
+      16.  xzxyx = -yzyxy = xzyyy + yzxyy + yzyyx = -yzxxx + yzxyy + yzyyx
+      17.  xzyxx = -yzxyy
+      18.  xzxxz = -yzxyz = -yzyxz = -xzyyz
+      19.  xzxzx = -yzxzy = -yzyzx = -xzyzy
+      20.  xzyzz = -yzxzz
+      21.  xzzxx = -yzzxy = -yzzyx = -xzzyy
+      22.  xzzyz = -yzzxz
+      23.  xzzzy = -yzzzx
+      24.  zxxxy = -zyyyx
+      25.  zxxyx = -zyyxy
+      26.  zxyxx = -zyxyy = zxyyy + zyyxy + zyyyx = -zyxxx + zyyxy + zyyyx
+      27.  zxxxz = -zyxyz = -zyyxz = -zxyyz
+      28.  zxxzx = -zyxzy = -zyyzx = -zxyzy
+      29.  zxyzz = -zyxzz
+      30.  zxzxx = -zyzxy = -zyzyx = -zxzyy
+      31.  zxzyz = -zyzxz
+      32.  zxzzy = -zyzzx
+      33.  zzxxx = -zzyxy = -zzyyx = -zzxyy
+      34.  zzxyz = -zzyxz
+      35.  zzxzy = -zzyzx
+      36.  zzzxy = -zzzyx
 ================================================================================

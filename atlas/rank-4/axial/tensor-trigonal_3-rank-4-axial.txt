@@ -1,4 +1,4 @@
-Summary generated Tue Feb  4 02:11:25 PM CET 2025 by TensSym for
+Summary generated Tue Jul 22 05:50:15 PM CEST 2025 by TensSym for
 point-symmetry group trigonal_3, axial tensor of rank 4.
 See https://github.com/hp35/tenssym for details.
 ================================================================================
@@ -30,11 +30,11 @@ elements, of which 27 are independent.
 
 The 27 independent and nonzero tensor elements are as follows:
        1.  xxxx = yyyy
-       2.  xxxy = -yyyx
-       3.  xxyx = -yyxy = xyyy + yxyy + yyyx = -yxxx + yxyy + yyyx
-       4.  xxyy = yyxx
+       2.  xxxy = -yyyx = xyyy + yxyy + yyxy = -yxxx + yxyy + yyxy
+       3.  xxyx = -yyxy
+       4.  xxyy = yyxx = -xyyx - yxyx + yyyy = -yxxy - yxyx + yyyy
        5.  xyxx = -yxyy
-       6.  xyxy = yxyx = -xyyx - yyxx + yyyy = -yxxy - yyxx + yyyy
+       6.  xyxy = yxyx
        7.  xxxz = -xyyz = -yxyz = -yyxz
        8.  xxyz = -yyyz = xyxz = yxxz
        9.  xxzx = -xyzy = -yxzy = -yyzx

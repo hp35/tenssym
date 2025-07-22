@@ -1,4 +1,4 @@
-Summary generated Tue Feb  4 02:11:35 PM CET 2025 by TensSym for
+Summary generated Tue Jul 22 05:50:01 PM CEST 2025 by TensSym for
 point-symmetry group trigonal_32_2x, axial tensor of rank 3.
 See https://github.com/hp35/tenssym for details.
 ================================================================================
