@@ -1,8 +1,8 @@
 # Atlas of nonzero elements of polar and axial tensors
 
-The following compilation of nonzero elements of polar and axial tensor elements covers tensors of rank 2 up to rank 5, for point-symmetry groups
--cubic_4bar3m
--cubic_23
+The following compilation of nonzero elements of polar and axial  tensor elements covers tensors of rank 2 up to rank 5, for  point-symmetry groups
+- cubic_4bar3m
+- cubic_23
 
 See https://github.com/hp35/tenssym for details.
 
