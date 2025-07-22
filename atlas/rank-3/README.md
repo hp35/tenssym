@@ -1,8 +1,8 @@
 # Nonzero elements of rank-3 polar and axial tensors
 
 The following compilation of nonzero elements of polar (true) and axial (pseudo) rank-3 tensor elements was generated using the TensSym package (https://github.com/hp35/tenssym/).
-- polar tensor of rank 3: [polar](polar)
-- axial tensor of rank 3: [axial](axial)
+- Rank-3 polar tensor: [polar](polar)
+- Rank-3 axial tensor: [axial](axial)
 
 See https://github.com/hp35/tenssym for details and code for the implementation of the TensSym package, and https://github.com/hp35/tenssym/tree/main/atlas/ for the complete atlas of nonzero and independent elements of other ranks.
 
