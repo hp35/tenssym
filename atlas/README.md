@@ -8,12 +8,12 @@ The following compilation of nonzero elements of polar and axial tensor elements
 See https://github.com/hp35/tenssym for details.
 
 ## Catalogue of nonzero and independent tensor elements
-- Rank 2 tensors: [atlas/rank-2](atlas/rank-2)
-    - polar tensor: [atlas/rank-2/polar](atlas/rank-2/polar)
-    - axial tensor: [atlas/rank-2/axial](atlas/rank-2/axial)
-- Rank 3 tensors: [atlas/rank-3](atlas/rank-3)
-    - polar tensor: [atlas/rank-3/polar](atlas/rank-3/polar)
-    - axial tensor: [atlas/rank-3/axial](atlas/rank-3/axial)
+- Rank 2 tensors: [rank-2](rank-2)
+    - polar tensor: [rank-2/polar](rank-2/polar)
+    - axial tensor: [rank-2/axial](rank-2/axial)
+- Rank 3 tensors: [rank-3](rank-3)
+    - polar tensor: [rank-3/polar](rank-3/polar)
+    - axial tensor: [rank-3/axial](rank-3/axial)
 
 ## Copyright
 Copyright (C) 2023, Fredrik Jonsson, under GPL 3.0. See enclosed LICENSE.
