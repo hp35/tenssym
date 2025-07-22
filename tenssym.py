@@ -26,6 +26,11 @@ References
      ISBN 91-7170-575-9; Available via the National Library of Sweden (Kungl.
      Biblioteket) at http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-2967
 
+ [4] Patrick Steglich and Achim Kehrein, "Light propagation in anisotropic
+     materials and electro-optical effects: tutorial on the use of eigenvalue
+     problems, tensors, and symmetries", J. Opt. Soc. Am. B, Vol. 41, No. 9,
+     pp. 2191--2210 (2024).
+
 Copyright (C) 2023, Fredrik Jonsson.
 """
 import math, sys, getopt
