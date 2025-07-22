@@ -3,8 +3,8 @@
 The following compilation of nonzero elements of polar (true) and axial (pseudo) rank-3 tensor elements was  generated using the TensSym package (https://github.com/hp35/tenssym/).
 
 The summaries of non-zero and independent elements of the axial tensors of rank 3 are available for the following point-symmetry groups:
-- Group cubic_4bar3m: [tensor-cubic_4bar3m-rank-3-axial.txt](tensor-cubic_4bar3m-rank-3-axial.txt)
-- Group cubic_23: [tensor-cubic_23-rank-3-axial.txt](tensor-cubic_23-rank-3-axial.txt)
+- Group cubic_4bar3m: [tensor-cubic_4bar3m-rank-3-axial.txt](tensor-cubic_4bar3m-rank-3-axial.txt) [MD5: 063be5586eff1324e2209789484aea01]
+- Group cubic_23: [tensor-cubic_23-rank-3-axial.txt](tensor-cubic_23-rank-3-axial.txt) [MD5: 643dc3a3e2fb9f111bf63916f9f35ad6]
 
 See https://github.com/hp35/tenssym for details and code for the implementation of the TensSym package, and https://github.com/hp35/tenssym/tree/main/atlas/ for the complete atlas of nonzero and independent elements of other ranks.
 
