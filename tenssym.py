@@ -113,7 +113,33 @@ class Angle(Enum):
     PI_THIRD = "pi/3"        # PI/3 radians   (6-fold rotational symmetry)
 
 class RotationMatrix:
+
     def __init__(self, axis, angle, inv=None):
+        """
+        Initialize the RotationMatrix object, being a unitary [3×3]-matrix
+        with determinant either as +1 (for proper rotations) or -1 (for
+        impropoer rotations, inclusing inversion), describing rotation
+        around the supplied axis.
+
+        Parameters
+        ----------
+        axis : Axis (Enum type)
+            The axis around which the rotation is to be performed.
+        angle : Angle (Enum type)
+            The angle of rotation.
+        inv : bool, optional
+            If not None, then invert the currently held rotation matrix
+            with respect to the supplied axis. The default is None.
+
+        Raises
+        ------
+        ValueError
+            If the supplied Axis or Angle are undefined.
+
+        Returns
+        -------
+        None.
+        """
         self.axis = axis
         self.angle = angle
 
