@@ -789,9 +789,35 @@ class Tensor:
 
 def nonzeroTensorElements(pointsymmetry=PointSymmetryGroup.cubic_23,
             tensortype=TensorType.POLAR,
-            tensorrank=4):
+            tensorrank=4,
+            debug = False):
+    """
+    Given a crystallographic point-symmetry group, of any of the items as
+    present in the PointSymmetryGroup enumeration type, a tensor type (polar
+    or axial) and a rank of the tensor to be analyzed, extract its set of
+    non-zero and independent tensor elements.
 
-    debug = False
+    Parameters
+    ----------
+    pointsymmetry : PointSymmetryGroup (enumeration type), optional
+        The crystallographic point-symmetry group to be analyzed.
+        The default is PointSymmetryGroup.cubic_23.
+    tensortype : TensorType (enumeration type), optional
+        The type of tensor to be analyzed, being either TensorType.POLAR
+        ("true tensor") or TensorType.AXIAL ("pseudo-tensor"). The default
+        is TensorType.POLAR.
+    tensorrank : int, optional
+        The rank of the tensor to be analyzed. The default is 4.
+    debug : bool, optional
+        Set to True in order to start producing intermediate information
+        on the process of extraction of non-zero and independent tensor
+        elements. For debugging purposes only. The default is False.
+
+    Yields
+    ------
+    None.
+    """
+
     eqs = []
     INDEPENDENT = "independent"    # Used as marker of independent elements
     symmetryoperations = PointSymmetryOperations(pointsymmetry)
@@ -989,11 +1015,16 @@ def parseopts(args: List[str]) -> Tuple[str, List[int]]:
 
     Returns
     -------
-    pointsymmetry, tensortype, tensorrank
+    A dictionary containing the keys "pointsymmetry", "tensortype",
+    "tensorrank", "eulerPhi", "eulerTheta", and "eulerPsi". These keys
+    define the following parameters:
         pointsymmetry: The point-symmetry group for which we are about to
                        compute nonzero and independent tensor elements.
         tensortype:    Type of tensor (polar or axial)
         tensorrank:    Rank of the tensor
+        eulerPhi:      First Euler angle, rotation around z-axis
+        eulerTheta:    Second Euler angle, rotation around new x-axis
+        eulerPsi:      Third Euler angle, rotation around new z-axis
     """
     symmetryOptions = ""
     for s in PointSymmetryGroup:
@@ -1015,14 +1046,30 @@ def parseopts(args: List[str]) -> Tuple[str, List[int]]:
             "  -t --type <t>      Specify the tensor type to apply. Valid\n"\
             "                     options <t> are:\n"\
             +typeOptions+\
-            "  -r --rank <n>      Specify the rank of the tensor, as an integer <n>."
-    pointsymmetry = None
-    tensortype = None
-    tensorrank = None
+            "  -r --rank <n>      Specify the rank of the tensor, integer <n>.\n"\
+            "\n"\
+            "In addition, the results may be presented in a reference frame\n"\
+            "rotated relative the crystallographic frame, with the rotation\n"\
+            "specified using the standard Euler angles of classical mechanics:\n"\
+            "  -c, --phi          First Euler angle, specifying rotation of\n"\
+            "                     the observation frame around the z-axis.\n"\
+            "  -b, --theta        Second Euler angle, specifying rotation of\n"\
+            "                     the observation frame around the new x-axis.\n"\
+            "  -a, --psi          Third Euler angle, specifying rotation of\n"\
+            "                     the observation frame around the new z-axis.\n"
+    retvals = {
+        "pointsymmetry": None,  # Crystallographic point-symmetry group
+        "tensortype": None,     # Polar or axial (true or pseudo-tensor)
+        "tensorrank": None,     # Rank of the tensor to be analyzed
+        "eulerPhi": None,       # 1:st Euler angle, rotation around z-axis
+        "eulerTheta" : None,    # 2:nd Euler angle, rotation around new x-axis
+        "eulerPsi": None        # 3:rd Euler angle, rotation around new z-axis
+        }
     try:
         options, arguments = getopt.getopt(args,
-            "vhs:t:r:",
-            ["version", "help", "symmetry=", "type=", "rank="])
+            "vhs:t:r:c:b:a:",
+            ["version", "help", "symmetry=", "type=", "rank=",
+             "phi=", "theta=", "psi="])
     except:
         print("Unrecognized option in %s"%args)
         print(USAGE)
@@ -1034,24 +1081,39 @@ def parseopts(args: List[str]) -> Tuple[str, List[int]]:
         if opt in ("-h", "--help"):
             print(USAGE)
             sys.exit()
-        if opt in ("-s", "--symmetry"): pointsymmetry = PointSymmetryGroup[arg]
-        if opt in ("-t", "--type"): tensortype = TensorType[str(arg).upper()]
-        if opt in ("-r", "--rank"): tensorrank = int(arg)
-    if None in (pointsymmetry, tensortype, tensorrank):
-        if (pointsymmetry == None):
+        if opt in ("-s", "--symmetry"):
+            retvals["pointsymmetry"] = PointSymmetryGroup[arg]
+        if opt in ("-t", "--type"):
+            retvals["tensortype"] = TensorType[str(arg).upper()]
+        if opt in ("-r", "--rank"):
+            retvals["tensorrank"] = int(arg)
+        if opt in ("-c", "--phi"):
+            retvals["eulerPhi"] = float(arg)
+        if opt in ("-b", "--theta"):
+            retvals["eulerTheta"] = float(arg)
+        if opt in ("-a", "--psi"):
+            retvals["eulerPsi"] = float(arg)
+    if None in (retvals["pointsymmetry"], retvals["tensortype"], retvals["tensorrank"]):
+        if (retvals["pointsymmetry"] == None):
             print("Unspecified point symmetry group.")
-        if (tensortype == None):
+        if (retvals["tensortype"] == None):
             print("Unspecified tensor type.")
-        if (tensorrank == None):
+        if (retvals["tensorrank"] == None):
             print("Unspecified tensor rank.")
         print(USAGE)
         sys.exit()
-    return pointsymmetry, tensortype, tensorrank
+    return retvals
 
 def main() -> None:
     args = sys.argv[1:]
     if len(args) > 0:  # If command-line is supplied
-        pointsymmetry, tensortype, tensorrank = parseopts(args)
+        opts = parseopts(args)
+        pointsymmetry = opts["pointsymmetry"]
+        tensortype    = opts["tensortype"]
+        tensorrank    = opts["tensorrank"]
+        eulerPhi      = opts["eulerPhi"]
+        eulerTheta    = opts["eulerTheta"]
+        eulerPsi      = opts["eulerPsi"]
     else:
         # pointsymmetry=PointSymmetryGroup.cubic_23
         # pointsymmetry = PointSymmetryGroup.trigonal_3
@@ -1068,7 +1130,21 @@ def main() -> None:
         pointsymmetry = PointSymmetryGroup.trigonal_32_2y
         tensortype = TensorType.POLAR
         tensorrank = 4
+
+    """
+    Compute the non-zero and independent set of tensor elements expressed
+    in the crystallographic frame, being the frame in which the symmetry
+    operations are specified.
+    """
     reducedset = nonzeroTensorElements(pointsymmetry, tensortype, tensorrank)
+
+    """
+    If a set of three Euler angles have been specified, then express the
+    previously derived set of non-zero elements in a rotated reference
+    (laboratory) frame. Notice that these angles specifies the rotation
+    relative the crystal (which is considered as a fixed coordinate system),
+    not vice versa.
+    """
     return
 
 if __name__ == "__main__":

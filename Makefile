@@ -12,6 +12,10 @@
 all:
 	./tenssym.sh
 
+rank-4-polar-43m-rotated:
+	python3 tenssym.py --symmetry trigonal_3 --type polar --rank 4 \
+		--phi 0.3 --theta 0.2 --psi 0.1
+
 #
 # Generate a change log of the history of the CWEB master.
 #
