@@ -12,3 +12,6 @@ all:
 #
 history:
 	git log -- filename tenssym.py > HISTORY.txt
+
+clean:
+	-rm -Rf *~
