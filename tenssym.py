@@ -31,6 +31,9 @@ References
      problems, tensors, and symmetries", J. Opt. Soc. Am. B, Vol. 41, No. 9,
      pp. 2191--2210 (2024).
 
+ [5] Herbert Goldstein, "Classical Mechanics", 2nd Edn. (Addison-Wesley,
+     1980), Ch. 4.4, pp. 146--147.
+
 Copyright (C) 2023, Fredrik Jonsson.
 """
 import math, sys, getopt
@@ -333,6 +336,63 @@ class RotationMatrix:
             raise ValueError("Absolute value of determinant outside of "
                              "tolerance (%e). This should never happen."%dev)
         return (det > 0.0)
+
+    def setEulerAngles(self, phi, theta, psi):
+        """
+        Initialize the RotMatrix as determined by the three Euler angles
+        (phi, theta, psi) of classical mechanics. These angles are in their
+        standard definition described by Herbert Goldstein's "Classical
+        Mechanics" [5] (see reference section in the header of tensrot.py).
+
+        This routine reinitializes the rotation matrix to the identity
+        transformation, and subsequently produces the transformation matrix
+                R = ABC,
+        describing a proper rotation (without any inversion), where
+                A = [[  cos(psi) ,  sin(psi) ,     0     ],
+                     [ -sin(psi) ,  cos(psi) ,     0     ],
+                     [     0     ,     0     ,     1     ]],
+
+                B = [[     1     ,     0     ,     0     ]
+                     [     0     , cos(theta), sin(theta)],
+                     [     0     ,-sin(theta), cos(theta)]],
+
+                C = [[  cos(phi) ,  sin(phi) ,     0     ],
+                     [ -sin(phi) ,  cos(phi) ,     0     ],
+                     [     0     ,     0     ,     1     ]],
+
+        Parameters
+        ----------
+        phi : float (angle expressed in radians)
+            First angle of rotation, around the z-axis.
+        theta : float (angle expressed in radians)
+            Second angle of rotation, around the new x-axis.
+        psi : float (angle expressed in radians)
+            Third angle of rotation, around the new z-axis.
+
+        Returns
+        -------
+        None. The RotationMatrix object will instead be modified accordingly.
+        """
+        self.oplabel = "euler"
+        self.opdescr = "custom Euler angles phi=%1.4f, theta=%1.4f, psi=%1.4f"\
+                       " (rad)"%(phi,theta,psi)
+        sphi, cphi = math.sin(phi), math.cos(phi)
+        stheta, ctheta = math.sin(theta), math.cos(theta)
+        spsi, cpsi = math.sin(psi), math.cos(psi)
+        A = sp.Matrix([
+            [  cpsi ,  spsi ,   0   ],
+            [ -spsi ,  cpsi ,   0   ],
+            [   0   ,   0   ,   1   ]])
+        B = sp.Matrix([
+            [   1   ,   0   ,   0   ],
+            [   0   , ctheta, stheta],
+            [   0   ,-stheta, ctheta]])
+        C = sp.Matrix([
+            [  cphi ,  sphi ,   0   ],
+            [ -sphi ,  cphi ,   0   ],
+            [   0   ,   0   ,   1   ]])
+        self.array = A * B * C
+        return
 
     def summarize(self):
         print(textwrap.fill("%s (%s), described by R(%s) for which det(R(%s)) "
