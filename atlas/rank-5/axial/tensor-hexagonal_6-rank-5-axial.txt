@@ -1,4 +1,4 @@
-Summary generated Tue Jul 22 05:51:36 PM CEST 2025 by TensSym for
+Summary generated Tue Jul 22 05:57:14 PM CEST 2025 by TensSym for
 point-symmetry group hexagonal_6, axial tensor of rank 5.
 See https://github.com/hp35/tenssym for details.
 ================================================================================
@@ -29,31 +29,31 @@ symmetry group 6 (hexagonal, no inversion symmetry), there are 121 nonzero
 elements, of which 51 are independent.
 
 The 51 independent and nonzero tensor elements are as follows:
-       1.  xxxxz = yyyyz = xyyxz + yxyxz + yyxxz = yxxyz + yxyxz + yyxxz
+       1.  xxxxz = yyyyz
        2.  xxxyz = -yyyxz = xyyyz + yxyyz + yyxyz = -yxxxz + yxyyz + yyxyz
        3.  xxyxz = -yyxyz
        4.  xxyyz = yyxxz
        5.  xyxxz = -yxyyz
-       6.  xyxyz = yxyxz
+       6.  xyxyz = yxyxz = -xyyxz - yyxxz + yyyyz = -yxxyz - yyxxz + yyyyz
        7.  xxxzx = yyyzy
        8.  xxxzy = -yyyzx
        9.  xxyzx = -yyxzy
-      10.  xxyzy = yyxzx = -xyyzx - yxyzx + yyyzy = -yxxzy - yxyzx + yyyzy
+      10.  xxyzy = yyxzx
       11.  xyxzx = -yxyzy = xyyzy + yyxzy + yyyzx = -yxxzx + yyxzy + yyyzx
-      12.  xyxzy = yxyzx
-      13.  xxzxx = yyzyy
-      14.  xxzxy = -yyzyx
+      12.  xyxzy = yxyzx = -xyyzx - yyxzx + yyyzy = -yxxzy - yyxzx + yyyzy
+      13.  xxzxx = yyzyy = xyzyx + yxzyx + yyzxx = yxzxy + yxzyx + yyzxx
+      14.  xxzxy = -yyzyx = xyzyy + yxzyy + yyzxy = -yxzxx + yxzyy + yyzxy
       15.  xxzyx = -yyzxy
-      16.  xxzyy = yyzxx = -xyzyx - yxzyx + yyzyy = -yxzxy - yxzyx + yyzyy
-      17.  xyzxx = -yxzyy = xyzyy + yyzxy + yyzyx = -yxzxx + yyzxy + yyzyx
+      16.  xxzyy = yyzxx
+      17.  xyzxx = -yxzyy
       18.  xyzxy = yxzyx
       19.  xxzzz = yyzzz
       20.  xyzzz = -yxzzz
-      21.  xzxxx = yzyyy
-      22.  xzxxy = -yzyyx = xzyyy + yzxyy + yzyxy = -yzxxx + yzxyy + yzyxy
+      21.  xzxxx = yzyyy = xzyyx + yzxyx + yzyxx = yzxxy + yzxyx + yzyxx
+      22.  xzxxy = -yzyyx
       23.  xzxyx = -yzyxy
-      24.  xzxyy = yzyxx = -yzxxy - yzxyx + yzyyy = -xzyyx - yzxyx + yzyyy
-      25.  xzyxx = -yzxyy
+      24.  xzxyy = yzyxx
+      25.  xzyxx = -yzxyy = xzyyy + yzyxy + yzyyx = -yzxxx + yzyxy + yzyyx
       26.  xzyxy = yzxyx
       27.  xzxzz = yzyzz
       28.  xzyzz = -yzxzz

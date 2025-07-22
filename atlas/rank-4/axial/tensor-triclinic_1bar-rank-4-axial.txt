@@ -1,4 +1,4 @@
-Summary generated Tue Jul 22 05:50:17 PM CEST 2025 by TensSym for
+Summary generated Tue Jul 22 05:55:56 PM CEST 2025 by TensSym for
 point-symmetry group triclinic_1bar, axial tensor of rank 4.
 See https://github.com/hp35/tenssym for details.
 ================================================================================

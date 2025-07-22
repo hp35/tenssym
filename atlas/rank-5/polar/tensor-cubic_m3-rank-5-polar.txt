@@ -1,4 +1,4 @@
-Summary generated Tue Jul 22 05:50:53 PM CEST 2025 by TensSym for
+Summary generated Tue Jul 22 05:56:31 PM CEST 2025 by TensSym for
 point-symmetry group cubic_m3, polar tensor of rank 5.
 See https://github.com/hp35/tenssym for details.
 ================================================================================

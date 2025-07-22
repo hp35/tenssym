@@ -1,4 +1,4 @@
-Summary generated Tue Jul 22 05:51:03 PM CEST 2025 by TensSym for
+Summary generated Tue Jul 22 05:56:41 PM CEST 2025 by TensSym for
 point-symmetry group cubic_4bar3m, axial tensor of rank 5.
 See https://github.com/hp35/tenssym for details.
 ================================================================================

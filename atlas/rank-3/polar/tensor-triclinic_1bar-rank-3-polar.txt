@@ -1,4 +1,4 @@
-Summary generated Tue Jul 22 05:49:56 PM CEST 2025 by TensSym for
+Summary generated Tue Jul 22 05:55:35 PM CEST 2025 by TensSym for
 point-symmetry group triclinic_1bar, polar tensor of rank 3.
 See https://github.com/hp35/tenssym for details.
 ================================================================================

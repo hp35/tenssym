@@ -1,4 +1,4 @@
-Summary generated Tue Jul 22 05:49:46 PM CEST 2025 by TensSym for
+Summary generated Tue Jul 22 05:55:24 PM CEST 2025 by TensSym for
 point-symmetry group cubic_23, polar tensor of rank 2.
 See https://github.com/hp35/tenssym for details.
 ================================================================================

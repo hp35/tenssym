@@ -1,4 +1,4 @@
-Summary generated Tue Jul 22 05:49:59 PM CEST 2025 by TensSym for
+Summary generated Tue Jul 22 05:55:37 PM CEST 2025 by TensSym for
 point-symmetry group hexagonal_6, polar tensor of rank 3.
 See https://github.com/hp35/tenssym for details.
 ================================================================================

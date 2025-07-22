@@ -1,4 +1,4 @@
-Summary generated Tue Jul 22 05:50:56 PM CEST 2025 by TensSym for
+Summary generated Tue Jul 22 05:56:34 PM CEST 2025 by TensSym for
 point-symmetry group hexagonal_6, polar tensor of rank 5.
 See https://github.com/hp35/tenssym for details.
 ================================================================================
@@ -30,11 +30,11 @@ elements, of which 51 are independent.
 
 The 51 independent and nonzero tensor elements are as follows:
        1.  xxxxz = yyyyz
-       2.  xxxyz = -yyyxz = xyyyz + yxyyz + yyxyz = -yxxxz + yxyyz + yyxyz
-       3.  xxyxz = -yyxyz
-       4.  xxyyz = yyxxz = -xyyxz - yxyxz + yyyyz = -yxxyz - yxyxz + yyyyz
+       2.  xxxyz = -yyyxz
+       3.  xxyxz = -yyxyz = xyyyz + yxyyz + yyyxz = -yxxxz + yxyyz + yyyxz
+       4.  xxyyz = yyxxz
        5.  xyxxz = -yxyyz
-       6.  xyxyz = yxyxz
+       6.  xyxyz = yxyxz = -xyyxz - yyxxz + yyyyz = -yxxyz - yyxxz + yyyyz
        7.  xxxzx = yyyzy
        8.  xxxzy = -yyyzx
        9.  xxyzx = -yyxzy
@@ -42,8 +42,8 @@ The 51 independent and nonzero tensor elements are as follows:
       11.  xyxzx = -yxyzy = xyyzy + yyxzy + yyyzx = -yxxzx + yyxzy + yyyzx
       12.  xyxzy = yxyzx = -xyyzx - yyxzx + yyyzy = -yxxzy - yyxzx + yyyzy
       13.  xxzxx = yyzyy = xyzyx + yxzyx + yyzxx = yxzxy + yxzyx + yyzxx
-      14.  xxzxy = -yyzyx
-      15.  xxzyx = -yyzxy = xyzyy + yxzyy + yyzyx = -yxzxx + yxzyy + yyzyx
+      14.  xxzxy = -yyzyx = xyzyy + yxzyy + yyzxy = -yxzxx + yxzyy + yyzxy
+      15.  xxzyx = -yyzxy
       16.  xxzyy = yyzxx
       17.  xyzxx = -yxzyy
       18.  xyzxy = yxzyx
@@ -51,9 +51,9 @@ The 51 independent and nonzero tensor elements are as follows:
       20.  xyzzz = -yxzzz
       21.  xzxxx = yzyyy
       22.  xzxxy = -yzyyx
-      23.  xzxyx = -yzyxy = xzyyy + yzxyy + yzyyx = -yzxxx + yzxyy + yzyyx
+      23.  xzxyx = -yzyxy
       24.  xzxyy = yzyxx = -yzxxy - yzxyx + yzyyy = -xzyyx - yzxyx + yzyyy
-      25.  xzyxx = -yzxyy
+      25.  xzyxx = -yzxyy = xzyyy + yzyxy + yzyyx = -yzxxx + yzyxy + yzyyx
       26.  xzyxy = yzxyx
       27.  xzxzz = yzyzz
       28.  xzyzz = -yzxzz
@@ -63,9 +63,9 @@ The 51 independent and nonzero tensor elements are as follows:
       32.  xzzzy = -yzzzx
       33.  zxxxx = zyyyy
       34.  zxxxy = -zyyyx
-      35.  zxxyx = -zyyxy = zxyyy + zyxyy + zyyyx = -zyxxx + zyxyy + zyyyx
+      35.  zxxyx = -zyyxy
       36.  zxxyy = zyyxx
-      37.  zxyxx = -zyxyy
+      37.  zxyxx = -zyxyy = zxyyy + zyyxy + zyyyx = -zyxxx + zyyxy + zyyyx
       38.  zxyxy = zyxyx = -zxyyx - zyyxx + zyyyy = -zyxxy - zyyxx + zyyyy
       39.  zxxzz = zyyzz
       40.  zxyzz = -zyxzz

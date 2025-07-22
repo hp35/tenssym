@@ -1,4 +1,4 @@
-Summary generated Tue Jul 22 05:50:12 PM CEST 2025 by TensSym for
+Summary generated Tue Jul 22 05:55:50 PM CEST 2025 by TensSym for
 point-symmetry group hexagonal_6, polar tensor of rank 4.
 See https://github.com/hp35/tenssym for details.
 ================================================================================
@@ -29,11 +29,11 @@ symmetry group 6 (hexagonal, no inversion symmetry), there are 41 nonzero
 elements, of which 19 are independent.
 
 The 19 independent and nonzero tensor elements are as follows:
-       1.  xxxx = yyyy = xyyx + yxyx + yyxx = yxxy + yxyx + yyxx
-       2.  xxxy = -yyyx
+       1.  xxxx = yyyy
+       2.  xxxy = -yyyx = xyyy + yxyy + yyxy = -yxxx + yxyy + yyxy
        3.  xxyx = -yyxy
-       4.  xxyy = yyxx
-       5.  xyxx = -yxyy = xyyy + yyxy + yyyx = -yxxx + yyxy + yyyx
+       4.  xxyy = yyxx = -xyyx - yxyx + yyyy = -yxxy - yxyx + yyyy
+       5.  xyxx = -yxyy
        6.  xyxy = yxyx
        7.  xxzz = yyzz
        8.  xyzz = -yxzz
