@@ -14,6 +14,13 @@ See https://github.com/hp35/tenssym for details.
     - polar tensor: [rank-3/polar](rank-3/polar)
     - axial tensor: [rank-3/axial](rank-3/axial)
 
+## References
+1.   Susceptibility Tensors for Nonlinear Optics, S. V. Popov, Yu.  P. Svirko and N. Zheludev (Institute of Physics Publishing, Bristol,  1995). ISBN 0-7503-0253-4.
+2. The Elements of Nonlinear Optics, P. N. Butcher and D. Cotter (Cambridge University Press, Bristol, 1993). ISBN 0-521-42424-0.
+3. The Nonlinear Optics of Magneto-Optic Media (doctoral thesis), Fredrik Jonsson (The Royal Institute of Technology, 2000), ISBN 91-7170-575-9; Available via the National Library of Sweden  (Kungl. Biblioteket) at  http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-2967
+4. Patrick Steglich and Achim Kehrein, <em>Light propagation in  anisotropic materials and electro-optical effects: tutorial on the  use of eigenvalue problems, tensors, and symmetries</em>, J. Opt.  Soc. Am. B, Vol. 41, No. 9, pp. 2191--2210 (2024).
+5. Herbert Goldstein, <em>Classical Mechanics</em>, 2nd Edn.  (Addison-Wesley, 1980), Ch. 4.4, pp. 146--147.
+
 ## Copyright
 Copyright (C) 2023, Fredrik Jonsson, under GPL 3.0. See enclosed LICENSE.
 
