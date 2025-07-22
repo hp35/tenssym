@@ -12,6 +12,14 @@
 all:
 	./tenssym.sh
 
+#
+# Example illustrating the extraction of all non-zero and independent elements
+# of a rank-4 polar tensor under the symmetry described by crystallographic
+# point-symmetry group 3 (trigonal), expressed in a laboratory frame rotated
+# against the crystallographic (reference) frame using Euler angles (phi,
+# theta, psi), following the convention of classical mechanics, for example
+# Herbert Goldstein's "Classical Mechanics" (Addison-Wesley, 1980).
+#
 rank-4-polar-43m-rotated:
 	python3 tenssym.py --symmetry trigonal_3 --type polar --rank 4 \
 		--phi 0.3 --theta 0.2 --psi 0.1
