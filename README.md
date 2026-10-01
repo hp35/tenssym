@@ -28,9 +28,8 @@ References
 ## Atlas of non-zero polar and axial tensor elements
 
 The `tenssym.sh` script has been used to generate the enclosed [<em>Atlas of
-nonzero elements of polar and axial tensors</em>](./atlas/) of nonzero tensor
-elements for the following point-symmetry groups (tensor ranks from two to
-five):
+nonzero elements of polar and axial tensors</em>](./atlas/) for the following
+crystallographic point-symmetry groups (tensor ranks from two to five):
 
     "cubic_4bar3m"   - 43m cubic, inversion symmetry
     "cubic_23"       - 23 cubic, no inversion symmetry
